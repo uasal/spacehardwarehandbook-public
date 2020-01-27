@@ -10,5 +10,5 @@ Typical hot and cold spacecraft wall temperatures for internal payload:
 
  Case| Low | High | references
 ------------ | ------------ | ------------- | -------------
-Warm S/C |3 C|  18 C | https://arxiv.org/pdf/1807.02649.pdf
-Cold S/C |-3 C|  13 C | https://arxiv.org/pdf/1807.02649.pdf
+Warm S/C 6U CubeSat in LEO |3 C|  18 C | https://arxiv.org/pdf/1807.02649.pdf
+Cold S/C 6U CubeSat in LEO |-3 C|  13 C | https://arxiv.org/pdf/1807.02649.pdf
