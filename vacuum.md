@@ -9,7 +9,7 @@
 
 ## Standard for Spacecraft Materials
 
-outgassing.nasa.gov (backup copy of table): https://gist.github.com/douglase/59f60f348acc1364048a78d0299af434)
+[outgassing.nasa.gov](outgassing.nasa.gov) (backup copy of table): https://gist.github.com/douglase/59f60f348acc1364048a78d0299af434)
 
 From [NASA-STD-6016B](attachments/nasa_std_6016b_nasa_materials_and_processes_standard.pdf),STANDARD MATERIALS AND PROCESSES
 REQUIREMENTS FOR SPACECRAFT, Section 4.2.3.6 Thermal Vacuum Stability:
