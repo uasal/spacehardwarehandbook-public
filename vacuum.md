@@ -9,8 +9,6 @@
 
 ## Standard for Spacecraft Materials
 
-[outgassing.nasa.gov](outgassing.nasa.gov) (backup copy of table): https://gist.github.com/douglase/59f60f348acc1364048a78d0299af434)
-
 From [NASA-STD-6016B](attachments/nasa_std_6016b_nasa_materials_and_processes_standard.pdf),STANDARD MATERIALS AND PROCESSES
 REQUIREMENTS FOR SPACECRAFT, Section 4.2.3.6 Thermal Vacuum Stability:
 ```
@@ -28,6 +26,17 @@ lowering the CVCM requirement to ≤0.01 percent CVCM, use of optical surfaces i
 characterize the effects of deposition, or measurement of outgassing deposition rates as
 functions of source and target temperature 
 ```
+
+## Test data for materials:
+
+
+NASA outgassing data: [outgassing.nasa.gov](outgassing.nasa.gov) (backup copy of table): https://gist.github.com/douglase/59f60f348acc1364048a78d0299af434)
+
+ESA Materials database (not maintained): http://esmat.esa.int/
+
+Space Materials Database: https://www.spacematdb.com/spacemat/
+
+
 
 ## Other resources
 
