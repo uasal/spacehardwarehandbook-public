@@ -1,6 +1,8 @@
 
 [Thermal](Thermal.md)
 
+[Launch](Launch.md)
+
 NASA resources:
 
 - NASA GEVS (General Environmental Verification Standard): https://standards.nasa.gov/standard/gsfc/gsfc-std-7000
