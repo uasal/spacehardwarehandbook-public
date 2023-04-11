@@ -1,7 +1,7 @@
 
 [Thermal](Thermal.md)
 
-[Launch](Launch.md)
+[Launch](launch.md)
 
 NASA resources:
 
