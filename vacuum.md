@@ -45,3 +45,8 @@ Space Materials Database: https://www.spacematdb.com/spacemat/
 [Materials in Vacuum FAQ](https://www.lesker.com/newweb/technical_info/questions/materials.cfm)The Kurt J. Lesker Company's TechInfo Department.
 
 [Thermal Vacuum Topic](https://s3vi.ndc.nasa.gov/ssri-kb/topics/59/) Small Satellite Reliability Initiative (SSRI) Knowledge Base.
+
+
+## Cleaning parts:
+- [detailed optical smallsat cleaning procedure](space_optics_cleaning.md)
+- LIGO procedure: [https://dcc.ligo.org/LIGO-E960022/public](https://dcc.ligo.org/LIGO-E960022/public)
