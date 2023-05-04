@@ -2,7 +2,7 @@
 
 Based on the DeMi CubeSat contamination control plan by MIT STAR Lab team members Ewan Douglas and Rachel Morgan (MIT) 
 
-NASA source document: [NASA Marshall Contamination Control of Space Optical Systems](PD-ED-1263.pdf)
+NASA source document: [NASA Marshall Contamination Control of Space Optical Systems](PD-ED-1263.pdf) (also from https://extapps.ksc.nasa.gov/Reliability/Documents/Preferred_Practices/1263.pdf)
 
 Examples: [Hanford Contamination Control Update 2](https://dcc.ligo.org/LIGO-G1400378/public)
 
