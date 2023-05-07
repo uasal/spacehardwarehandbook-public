@@ -40,3 +40,16 @@ The clamping load of the part should exceed the expected load on the joint being
 # Inserts
 
  Nitronic 60 locking helical inserts are suggested for threading into aluminum. Inserts, such as locking helical inserts "helicoils", provide a locking mechanism to prevent screws from backing out, can increase strength, and the tolerable number of cycles of a joint.
+
+
+# Analysis Checklist
+
+| Test  |  Notes|
+| ------------- | ------------- |
+| Tension margin  Yield and Ultimate| |
+| Shear margin Yield and Ultimate| |
+| Shear+Tension Combined factor margin| depends on shear plane, see NASA 5020 or NSTS 08307 |
+| Gapping | for critical but none catastrophic failures the safety factor should be multiplied by 1.2|
+| Shear out/ Pull out strength | depends on insert, parent material, and fastener| 
+| bolt head pull through margin | | 
+| Bearing Yield and Ultimate | strength analysis of the joint members (e.g., bearing member or non-fastener material).|| 
