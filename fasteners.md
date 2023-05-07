@@ -16,6 +16,14 @@ A-286 Alloy is comparable strength to non-stainless bolts, but at a relatively h
 
 When a single bolt can't fail, a certified A286 alloy bolt is often called for. When there is redundancy and margin, more widely  available 18-8 is often more convenient and cost effective.
 
+## no-go materials:
+
+Without extensive review and waiver processses the following materials should not be used on space flight hardware:
+
+- Cadmium  (volatile and can lead to tin whiskers) (https://nepp.nasa.gov/npsl/Prohibited/cadmium_prohibition.htm) 
+- Zinc (same as Cadmium)
+- Carbon steel ( corrodes in low-earth orbit and/or in salty launch locations)
+
 # Style selection
 
 Vented Socket Head Screws increase cost and decrease choices but allow venting of blind holes to prevent gas build up in space/vacuum applications when the hole is not otherwise vented (the smallest screw hole that must be vented is somewhat fuzzy, but the fewer unvented holes the better).
