@@ -8,6 +8,7 @@
 - https://www.mcmaster.com/screws 
 - [Machinery's handbook](https://www.worldcat.org/title/machinerys-handbook/oclc/954734887) from [Industrial Press](https://books.industrialpress.com/machineryhandbook)
 
+
  
 # Material Selection
 
@@ -49,6 +50,10 @@ The clamping load of the part should exceed the expected load on the joint being
 
  Nitronic 60 locking helical inserts are suggested for threading into aluminum. Inserts, such as locking helical inserts "helicoils", provide a locking mechanism to prevent screws from backing out, can increase strength, and the tolerable number of cycles of a joint.
 
+# Staking
+See NASA standard 5020 section `B.5 Best Practices for Adhesive Locking Features`.
+
+At a minimum, a small amount of adhesive (i.e. 2216 B/A Gray) applied to the clean interface of the head of a screw to the bearing material is recommended to provide secondary retention.
 
 # Analysis Checklist
 
