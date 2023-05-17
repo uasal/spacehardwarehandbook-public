@@ -1,7 +1,7 @@
 # Useful References
 
-- [NASA Fastener Design manual](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19900009424.pdf) (locally: [19900009424.pdf](attachments/19900009424.pdf)) - somewhat dated materials since Cadium is no longer generally used but excellent overview of concepts
 - [NASA Standard 5020, Requirements for Threaded Fastening Systems in Spaceflight Hardware](https://standards.nasa.gov/standard/nasa/nasa-std-5020)
+- [NASA Fastener Design manual](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19900009424.pdf) (locally: [19900009424.pdf](attachments/19900009424.pdf)) - somewhat dated materials  but excellent overview of concepts
 - E. F. Bruhn. (1949). Analysis And Design Of Airplane Structures. Retrieved from http://archive.org/details/in.ernet.dli.2015.166811
 - Chambers, J. A. (1995). Preloaded joint analysis methodology for space flight systems. Retrieved from https://ntrs.nasa.gov/search.jsp?R=19960012183
 - Hemminger, E., Posey, A., & Dube, M. (2014). Torque Tension Testing of Fasteners used for NASA Flight Hardware Applications (p. 13). Presented at the Proceedings of the 42nd Aerospace Mechanisms Symposium, NASA Goddard Space Flight Center.
