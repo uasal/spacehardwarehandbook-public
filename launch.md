@@ -4,9 +4,9 @@ Also review [fasteners analysis guide](fasteners.md) and [hardware testing ](har
 
 ### useful resources:
 
-NASA Lesson learned: [NASA PRACTICE NO. PD-ED-1211: Combination Methods for Deriving Structural Design Loads Considering Vibro-Acoustic, etc., Responses ](1211.pdf)
+NASA Lesson learned: [NASA PRACTICE NO. PD-ED-1211: Combination Methods for Deriving Structural Design Loads Considering Vibro-Acoustic, etc., Responses ](attachements/1211.pdf)
 
-MSFC standards: [DEVELOPMENT OF VIBROACOUSTIC AND SHOCK DESIGN AND TEST CRITERIA STANDARD](msfc-std-3676b.pdf)
+MSFC standards: [DEVELOPMENT OF VIBROACOUSTIC AND SHOCK DESIGN AND TEST CRITERIA STANDARD](attachements/msfc-std-3676b.pdf)
 
 Simple rule-of-thumb for small assemblies: 
 
