@@ -1,5 +1,6 @@
 # spacehardwarehandbook-public
 
+A living document, automatically updated from GitHub source: https://github.com/uasal/spacehardwarehandbook-public
 
 Index of topics:
 
