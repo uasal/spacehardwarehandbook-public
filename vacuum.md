@@ -30,7 +30,7 @@ functions of source and target temperature
 ## Test data for materials:
 
 
-NASA outgassing data: [outgassing.nasa.gov](outgassing.nasa.gov) (backup copy of table): https://gist.github.com/douglase/59f60f348acc1364048a78d0299af434)
+NASA outgassing data: [outgassing.nasa.gov](outgassing.nasa.gov) (backup copy of table): https://gist.github.com/douglase/59f60f348acc1364048a78d0299af434
 
 ESA Materials database (not maintained): http://esmat.esa.int/
 
