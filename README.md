@@ -1,12 +1,10 @@
 # spacehardwarehandbook-public
 
-A living document, automatically updated from GitHub source: https://github.com/uasal/spacehardwarehandbook-public
+
+A living collection of documents for low-cost space instrumentation builders with an astronomical/optical bent, automatically updated from [source on GitHub](https://github.com/uasal/spacehardwarehandbook-public) maintained by the [UArizona Space Astrophysics Lab](https://uasal.github.io) and hosted at: https://uasal.github.io/spacehardwarehandbook-public/.
 
 
-Authors: 
-
-Ewan S Douglas,  Sai Krishanth Pulikesi Mannan, 
-
+Authors: [Ewan S Douglas](ewandouglas.space), Sai Krishanth Pulikesi Mannan
 
 
 Index of topics:
