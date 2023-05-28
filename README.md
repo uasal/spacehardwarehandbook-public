@@ -2,6 +2,13 @@
 
 A living document, automatically updated from GitHub source: https://github.com/uasal/spacehardwarehandbook-public
 
+
+Authors: 
+
+Ewan S Douglas,  Sai Krishanth Pulikesi Mannan, 
+
+
+
 Index of topics:
 
 - [cleaning (space) optics](space_optics_cleaning.md)
