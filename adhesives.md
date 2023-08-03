@@ -1,4 +1,4 @@
-3M 2216 A/B Gray is often baselined for space applications as it is readily available, low outgassing:
+3M 2216 A/B Gray is often baselined for space applications as it is readily available,  [low outgassing](https://gist.github.com/douglase/59f60f348acc1364048a78d0299af434):
 
 
     sample_id	data_ref	mfgr_code	tml	vcm	wvr	time1	temp1	atm1	time2	temp2	atm2	time3	temp3	atm3	time4	temp4	atm4	appl_code
