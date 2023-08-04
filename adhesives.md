@@ -4,3 +4,4 @@
     sample_id	data_ref	mfgr_code	tml	vcm	wvr	time1	temp1	atm1	time2	temp2	atm2	time3	temp3	atm3	time4	temp4	atm4	appl_code
     SCOTCHWELD 2216 A/B GRAY	GSC35727	MMM	0.99	0.02	0.21	7D	25	AIR										EPOXY
 
+when more compliance is required, RTV-566 is a standard adhesive for space systems, e.g. Mower, T. M. (2018). Thermomechanical behavior of aerospace-grade RTV (silicone adhesive). International Journal of Adhesion and Adhesives, 87, 64–72. https://doi.org/10.1016/j.ijadhadh.2018.08.009
