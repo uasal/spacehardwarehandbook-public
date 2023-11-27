@@ -1,7 +1,7 @@
 ## Orbital Radiaition Reports Directory
 The following is a listing of reports found in this directory, along with their abstracts.
 
-### Comparison of Orbital Proton Fluuences For Proposed STP: Pearl Mission Orbits
+### Comparison of Orbital Proton Fluences For Proposed STP: Pearl Mission Orbits
 
 This paper compares proton fluxes for four proposed STP:Pearl mission orbits: the OHB Aero-
 space MEO orbit; the Molniya HEO orbit; the TESS P/2 HEO orbit, and the Spitzer Earth Trailing
