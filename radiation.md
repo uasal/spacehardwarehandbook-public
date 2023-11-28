@@ -1,4 +1,8 @@
+To go to the radiation reports directory:
 
+[Radiation Reports](/Reports/Radiation/Readme.md)
+
+add /Reports/Radiation/Readme.md
 Radiation effects and COTS electronics reading list:
 
 Sinclair, D., & Dyer, J. (2013). Radiation Effects and COTS Parts in SmallSats. In Small Satellite Conference (p. 12). 
