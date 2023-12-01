@@ -1,4 +1,4 @@
-## Orbital Radiaition Reports Directory
+## Orbital Radiation Reports Directory
 The following is a listing of reports found in this directory, along with their abstracts.
 
 ### Comparison of Orbital Proton Fluences For Proposed STP: Pearl Mission Orbits
