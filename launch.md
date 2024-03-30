@@ -18,3 +18,9 @@ Verification Specification (GEVS) which represents a
 3-sigma case of applied acceleration due to launch-
 induced vibrations.'' [do Vale Pereira, P. et al 2020 https://digitalcommons.usu.edu/smallsat/2020/all2020/121/] 
 
+---
+
+To go to the launch vehicle reports directory:
+
+[Launch Vehicle Reports](/reports/launch/readme.md)
+
