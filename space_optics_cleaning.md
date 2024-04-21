@@ -15,10 +15,10 @@ Gushwa, K. E., & Torrie, C. I. (2014). Coming clean: understanding and mitigatin
 MEMS devices and optical components are particularly susceptible to contamination, thus:
 
 * payload assembly will occur in a class 100,000 or better cleanroom 
-* installation and removal operations on the exposed deformable mirror (with window removed) will occur under a class 1000 or better flow bench
-*do not use alcohol to clean the aluminum mirrors* [it reacts with the Al](Cleaning%20Optics-%20Choosing%20the%20Best%20Meth...ptical%20components%20%7C%20Photonics%20Handbook.pdf) and they have been cleaned at the factory.
+* installation and removal operations on an exposed MEMS device will occur under a class 1000 or better flow bench
+* do not use alcohol to clean aluminum mirrors* [it reacts with the Al](Cleaning%20Optics-%20Choosing%20the%20Best%20Meth...ptical%20components%20%7C%20Photonics%20Handbook.pdf) and they have been cleaned at the factory.
 * Only low-out-gassing (per https://outgassing.nasa.gov) lubricants (e.g. Bray-Coat) and adhesives (e.g. 2216 A/B Gray) will be used in the payload
-* guided by NASA STD 8739-1 (WORKMANSHIP STANDARD FOR STAKING AND CONFORMAL COATING OF PRINTED WIRING BOARDS AND ELECTRONIC ASSEMBLIES, https://snebulos.mit.edu/projects/reference/NASA-Generic/NASA-STD-8739-1.pdf) Electrical components will be cleaned as appropriate and conformal coated where possible (the DM wirebonds cannot be coated)
+* guided by NASA STD 8739-1 (WORKMANSHIP STANDARD FOR STAKING AND CONFORMAL COATING OF PRINTED WIRING BOARDS AND ELECTRONIC ASSEMBLIES, https://snebulos.mit.edu/projects/reference/NASA-Generic/NASA-STD-8739-1.pdf) Electrical components will be cleaned as appropriate and conformal coated where possible (e.g. wirebonds cannot be coated)
 
 ### Cleaning plan
 * Machined and 3D printed parts in view of payload optical components will be ultrasonically cleaned in 4 steps:
@@ -51,7 +51,7 @@ close silver rightmost knob, wait for dials to go down to zero, close those valv
 The payload is extremely  sensitive to the conflicting hazards of electrostatic discharge and high humidity, requiring
 
 * humidity monitoring of the spacecraft during integration
-* DM operation limited to humidities  between 25  \%RH and 40  \%RH (25-30 \%RH preferred)  
+* MEMS de operation limited to humidities  between 25  \%RH and 40  \%RH (25-30 \%RH preferred)  
 * technician payload handling of the powered off payload at $>40$\%RH is preferred for ESD hazard reduction.
 * Payload and technician grounding at all times
 * Daily testing of grounding equipment
