@@ -36,6 +36,3 @@ Relevant JSC  Structural Engineering Division Process Specification:
 [PRC-5007	Electroless Nickel Plating](https://www.nasa.gov/wp-content/uploads/2023/03/prc-5009-current.pdf)
 [PRC-5009	Electropolishing of Corrosion-Resistant Steel](https://www.nasa.gov/wp-content/uploads/2023/03/prc-5009-current.pdf)
 
-
-
-# re
