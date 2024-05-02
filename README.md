@@ -17,7 +17,7 @@ Index of topics:
 - [Cleaning (space) optics](space_optics_cleaning.md)
 - [Electrical Connectors](electrical_connectors.md)
 - [Fasteners](fasteners.md)
-- [Imaging Equipment](imaging.md}
+- [Imaging Equipment](imaging.md)
 - [Hardware Test Environments](hardware_testing.md)
 - [Launch Environment](launch.md)
 - [Radiation environment](radiation.md)
