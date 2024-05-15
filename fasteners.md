@@ -17,6 +17,8 @@ A-286 Alloy is comparable strength to non-stainless bolts, but at a relatively h
 
 When a single bolt can't fail, a certified A286 alloy bolt is often called for. When there is redundancy and margin, more widely  available 18-8 is often more convenient and cost effective.
 
+For potential flight project, materials and fastener certifications should always be procured out of an aboundance of caution.
+
 ## no-go materials:
 
 Without extensive review and waiver processses the following materials should not be used on space flight hardware:
@@ -42,11 +44,12 @@ For detailed calculations and requirements see NASA Standard 5020. NASA Tech Mem
 
 ## Torque wrenches
 
+- torque wrenches should be calibrated and from a reputable supply chain and manufacturer
 - torque values typically don't include the running torque and this will need to be estimated for the most accurate value.
 
 # Inserts
-
- Nitronic 60 locking helical inserts are suggested for threading into aluminum. Inserts, such as locking helical inserts "helicoils", provide a locking mechanism to prevent screws from backing out, can increase strength, and the tolerable number of cycles of a joint.
+ Inserts, such as locking helical inserts, provide a locking mechanism to prevent screws from backing out, can add strength, and increase the tolerable number of cycles of a joint. 
+To prevent galling, mil-spec Nitronic 60 or locking, keyed or helical ("helicoils), inserts are required whenever practical.
 
 # Staking
 See NASA standard 5020 section `B.5 Best Practices for Adhesive Locking Features`.
