@@ -49,7 +49,7 @@ For detailed calculations and requirements see NASA Standard 5020. NASA Tech Mem
 
 # Inserts
  Inserts, such as locking helical inserts, provide a locking mechanism to prevent screws from backing out, can add strength, and increase the tolerable number of cycles of a joint. 
-To prevent galling, mil-spec Nitronic 60 or locking, keyed or helical ("helicoils), inserts are required whenever practical.
+To prevent galling, mil-spec Nitronic 60,  keyed or helical ("helicoils), inserts are required whenever practical. Locking inserts are preferred when the number of cycles is expected to be low.
 
 # Staking
 See NASA standard 5020 section `B.5 Best Practices for Adhesive Locking Features`.
