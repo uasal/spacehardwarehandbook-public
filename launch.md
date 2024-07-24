@@ -2,6 +2,8 @@
 
 Also review [fasteners analysis guide](fasteners.md) and [hardware testing ](hardware_testing).
 
+Sufficient design factors of safety. Steward Observatory has adopted a baseline factors of safety (FOS) and multiplicitve model uncertainty factors (MUF), [available here](attachments/SO_FOS_Table-V1_0.pdf).
+
 ### useful resources:
 
 NASA Lesson learned: [NASA PRACTICE NO. PD-ED-1211: Combination Methods for Deriving Structural Design Loads Considering Vibro-Acoustic, etc., Responses ](attachments/1211.pdf)
