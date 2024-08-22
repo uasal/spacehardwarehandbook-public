@@ -17,6 +17,8 @@ Index of topics:
 - [Cleaning (space) optics](space_optics_cleaning.md)
 - [Electrical Connectors](electrical_connectors.md)
 - [Fasteners](fasteners.md)
+  - [Fastener Torquing & Staking Procedure](Fastener Torquing and Staking Procedure.md) 
+- [Git Startup](git_startup.md)
 - [Imaging Equipment](imaging.md)
 - [Hardware Test Environments](hardware_testing.md)
 - [Launch Environment](launch.md)
