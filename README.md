@@ -4,7 +4,7 @@
 A living collection of documents for low-cost space instrumentation builders with an astronomical/optical bent, automatically updated from [source on GitHub](https://github.com/uasal/spacehardwarehandbook-public) maintained by the [UArizona Space Astrophysics Lab](https://uasal.github.io) and hosted at: [uasal.github.io/spacehardwarehandbook-public/](https://uasal.github.io/spacehardwarehandbook-public/).
 
 
-Authors: [Ewan S Douglas](https://www.ewandouglas.space/), Sai Krishanth Pulikesi Mannan, Jess A Johnson, Sanford Selznick, Dr. Robert Stone.
+Authors: [Ewan S Douglas](https://www.ewandouglas.space/), Sai Krishanth Pulikesi Mannan, Jess A Johnson, Sanford Selznick, Dr. Robert Stone, Stephanie Rinaldi.
 
 Cite as:
 
