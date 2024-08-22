@@ -10,7 +10,7 @@ Cite as:
 
   Douglas, Ewan S. et al (2023). spacehardwarehandbook-public. Zenodo. https://doi.org/10.5281/zenodo.8331489
   
-![https://zenodo.org/badge/DOI/10.5281/zenodo.8331489.svg](https://zenodo.org/badge/DOI/10.5281/zenodo.8331490.svg)
+![https://zenodo.org/badge/DOI/10.5281/zenodo.8331489.svg]( https://doi.org/10.5281/zenodo.8331489)
 
 # Index of topics:
 
