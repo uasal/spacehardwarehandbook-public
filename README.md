@@ -15,13 +15,14 @@ Cite as:
 # Index of topics:
 
 ## Mechanics:
-- [Fastener Torquing & Staking Procedure](Fastener Torquing and Staking Procedure.md) 
+- [Generic Fastener Torquing & Staking Procedure](FastenerTorquingStakingProcedure.md) 
 - [Hardware Test Environments](hardware_testing.md)
 - [Materials and Surfaces](materials_and_surfaces.md)
 - [Thermal Environment](Thermal.md)
 - [Vacuum Environment](vacuum.md)
 - [Fasteners](fasteners.md)
 - [Launch Environment](launch.md)
+- [Factors of safety](attachments/SO_FOS_Table-V1_0.pdf)
 
 
 ## Electronics
