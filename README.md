@@ -14,6 +14,15 @@ Cite as:
 
 # Index of topics:
 
+## Mechanics:
+- [Fastener Torquing & Staking Procedure](Fastener Torquing and Staking Procedure.md) 
+- [Hardware Test Environments](hardware_testing.md)
+- [Materials and Surfaces](materials_and_surfaces.md)
+- [Thermal Environment](Thermal.md)
+- [Vacuum Environment](vacuum.md)
+- [Fasteners](fasteners.md)
+- [Launch Environment](launch.md)
+
 
 ## Electronics
 - [Radiation environment](radiation.md)
@@ -23,14 +32,6 @@ Cite as:
 ## Optics:
 - [Cleaning (space) optics](space_optics_cleaning.md)
 
-## Mechanics:
-- [Fastener Torquing & Staking Procedure](Fastener Torquing and Staking Procedure.md) 
-- [Hardware Test Environments](hardware_testing.md)
-- [Materials and Surfaces](materials_and_surfaces.md)
-- [Thermal Environment](Thermal.md)
-- [Vacuum Environment](vacuum.md)
--  [Fasteners](fasteners.md)
-- [Launch Environment](launch.md)
 
 ## Software:
 - [Git Startup](git_startup.md)
