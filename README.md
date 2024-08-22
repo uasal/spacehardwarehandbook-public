@@ -4,7 +4,7 @@
 A living collection of documents for low-cost space instrumentation builders with an astronomical/optical bent, automatically updated from [source on GitHub](https://github.com/uasal/spacehardwarehandbook-public) maintained by the [UArizona Space Astrophysics Lab](https://uasal.github.io) and hosted at: [uasal.github.io/spacehardwarehandbook-public/](https://uasal.github.io/spacehardwarehandbook-public/).
 
 
-Authors: [Ewan S Douglas](https://www.ewandouglas.space/), Sai Krishanth Pulikesi Mannan, Jess A Johnson
+Authors: [Ewan S Douglas](https://www.ewandouglas.space/), Sai Krishanth Pulikesi Mannan, Jess A Johnson, Sanford Selznick.
 
 Cite as:
 
@@ -12,20 +12,30 @@ Cite as:
   
 ![https://zenodo.org/badge/DOI/10.5281/zenodo.8331489.svg](https://zenodo.org/badge/DOI/10.5281/zenodo.8331490.svg)
 
-Index of topics:
+# Index of topics:
 
-- [Cleaning (space) optics](space_optics_cleaning.md)
-- [Electrical Connectors](electrical_connectors.md)
-- [Fasteners](fasteners.md)
-  - [Fastener Torquing & Staking Procedure](Fastener Torquing and Staking Procedure.md) 
-- [Git Startup](git_startup.md)
-- [Imaging Equipment](imaging.md)
-- [Hardware Test Environments](hardware_testing.md)
-- [Launch Environment](launch.md)
+
+## Electronics
 - [Radiation environment](radiation.md)
+- [Imaging Equipment](imaging.md)
+- [Electrical Connectors](electrical_connectors.md)
+
+## Optics:
+- [Cleaning (space) optics](space_optics_cleaning.md)
+
+## Mechanics:
+- [Fastener Torquing & Staking Procedure](Fastener Torquing and Staking Procedure.md) 
+- [Hardware Test Environments](hardware_testing.md)
 - [Materials and Surfaces](materials_and_surfaces.md)
 - [Thermal Environment](Thermal.md)
 - [Vacuum Environment](vacuum.md)
+-  [Fasteners](fasteners.md)
+- [Launch Environment](launch.md)
+
+## Software:
+- [Git Startup](git_startup.md)
+
+## misc.
 - [Reports on items of general interest](reports/reports.md)
 
 
