@@ -34,7 +34,7 @@ Cite as:
 - [Electrical Connectors](electrical_connectors.md)
 
 ## Optics:
-- [Cleaning (space) optics](space_optics_cleaning.md)
+- [Handling and cleaning (space) optics](space_optics_lab_plan.md)
 
 
 ## Software:
