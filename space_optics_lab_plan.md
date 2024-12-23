@@ -1,4 +1,4 @@
-# Contamination Control Plan
+# High-Contrast Lab Contamination Control Plan
 
 Based on the DeMi CubeSat contamination control plan by MIT STAR Lab team members Ewan Douglas and Rachel Morgan (MIT) 
 
