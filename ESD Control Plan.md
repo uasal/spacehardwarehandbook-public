@@ -218,22 +218,23 @@ ESD work areas shall have clear demarcation by signs and/or floor markings.  The
 #### Prohibited items in ESD Work Area
 The following housekeeping practices are critical for continuous ESD compliance:
 
-a. Smoking, eating and drinking in ESD Work area is not allowed.
-
-b. Materials unessential to the work being done in the ESD work area are not allowed.
-
-c. Clipboards, books, notebooks, loose sheets of paper, etc., used to read or record data or follow instructions (this manual included), are kept at least 1 meter (3.3 ft.) from ESDS items or placed in ESD-safe bags or totes. Materials specifically made and verified to be safe in an ESD area are exempt from this requirement.
-
-d. Floors or mats are kept free of dust, dirt and other contaminants.
+1. Smoking, eating and drinking in ESD Work area is not allowed.
+   
+2. Materials unessential to the work being done in the ESD work area are not allowed.
+   
+3. Clipboards, books, notebooks, loose sheets of paper, etc., used to read or record data or follow instructions (this manual included), are kept at least 1 meter (3.3 ft.) from ESDS items or placed in ESD-safe bags or totes. Materials specifically made and verified to be safe in an ESD area are exempt from this requirement.
+   
+4. Floors or mats are kept free of dust, dirt and other contaminants.
 
 A 1-meter minimum separation is recommended between the location where ESDS items are handled and “tacky mats” which are used at the entrance to Clean rooms, cathode ray tube (CRT) displays, and other equipment, and which generate a static charge.
 
 The risk of damaging an item by an ESD event is heightened when the item is left exposed and/or unattended at a workstation or elsewhere. This risk is mitigated by placing ESDS items on an ESD protective surface and wrapping or covering them with static shielding material when they must be left unattended for short periods of time, such as a lunch break.
 
-Non-ESD work should not be done at an ESD station. 
+> [!Note]
+> Non-ESD work should **not** be done at an ESD station. 
 
 ![ESD Figure](assets/ESDFigure1.jpg)
-_Figure was taken from the JSC (Johnson Space Center) Technical Standard- [JSC-66552](https://standards.nasa.gov/sites/default/files/standards/JSC/Baseline/0/JSC-66552BASELINE.pdf) from Nasa._
+_Figure 1: Example ESD Work Station Diagram. Figure was taken from the JSC (Johnson Space Center) Technical Standard- [JSC-66552](https://standards.nasa.gov/sites/default/files/standards/JSC/Baseline/0/JSC-66552BASELINE.pdf) from Nasa._
 
 #### ESD Protected Work Surfaces
 The recommended default for the conductivity level for all work surfaces in an ESD-protected area is static dissipative (>105 to <109 Ω for surface resistance). Some work in EPAs requires conductive surfaces (<105 Ω) (e.g., optical benches).
@@ -245,12 +246,12 @@ When conductive surfaces are used, a one megohm (1 MΩ) optional resistor may be
 **Extreme care is required when using conductive work surfaces**. 
 To eliminate the safety hazard associated a high current event that results from touching a high voltage circuit with one hand and a hard ground with the other hand, work surfaces must either be soft grounded by installing a resistor in series with the ground (> 800 kΩ) or a GFCI must be used (GFCI, disconnects the circuit when an unsafe current event is detected, usually ≈ 5 ma). The use of the 1 megohm (1 MΩ ±20%) optional resistors inFigure 1 is acceptable in lieu of the GFCI. Conductive work surfaces also generate a CDM hazard for very sensitive devices.
 
-Selection of the protective work surface will ensure that:
-a. It does not release particle contaminants.
-b. It will resist attack by common solvents or cleaners.
-c. It is sufficiently large to accommodate the resting of common hand tools on the protective surface rather than on adjacent non-protected surfaces.
+**Selection of the protective work surface will ensure that:**
+1. It does not release particle contaminants.
+2. It will resist attack by common solvents or cleaners.
+3. It is sufficiently large to accommodate the resting of common hand tools on the protective surface rather than on adjacent non-protected surfaces.
 
-Soft grounding of dissipative work surfaces shall measure < 109 ohms. When highly conductive work surfaces (e.g., stainless steel or copper) are used, and they need to be connected directly to the equipment or auxiliary ground without the optional resistor (see
+Soft grounding of dissipative work surfaces shall measure < 109 ohms. When highly conductive work surfaces (e.g., stainless steel or copper) are used, and they need to be connected directly to the equipment or auxiliary ground without the optional resistor (see Figure 1).
 
 GFCIs shall be used in the ESD-protected workstation. Type “A” GFCIs are preferred. GFCIs shall be tested at least once a month using their self-test feature. The GFCI manufacturer’s web site usually has a preferred/recommended method to check their particular model.
 
@@ -269,17 +270,18 @@ As a minimum, all personnel working with or handling ESDS items must use Persona
 
 **Wrist Strap**: The wrist strap is the preferred means for ESD protection. It is the “first line of defense.” The wrist strap system consists of four major components:
 
-a. Lead: Only the lead supplied with the wrist strap should be used, as it may contain the safety resistor.
+1. Lead: Only the lead supplied with the wrist strap should be used, as it may contain the safety resistor.
 
-b. Cuff: The design of the wrist strap cuff ensures conductive contact with the wearer’s skin. Metallic cuffs are preferred over plastic or fabric cuffs. Bead type chains are not effective and are normally prohibited. ESD S1.1. dictates that the wrist strap shall have a cuff connector, which breaks away with a force between 1 and 5 pounds. This property is verified as part of incoming inspection of at least the first delivery lot, for each type of wrist strap used.
+2. Cuff: The design of the wrist strap cuff ensures conductive contact with the wearer’s skin. Metallic cuffs are preferred over plastic or fabric cuffs. Bead type chains are not effective and are normally prohibited. ESD S1.1. dictates that the wrist strap shall have a cuff connector, which breaks away with a force between 1 and 5 pounds. This property is verified as part of incoming inspection of at least the first delivery lot, for each type of wrist strap used.
 
-c. Safety Resistor: All wrist strap systems are expected to contain an integral current-limiting safety resistor (1 megohm ± 20%). This resistor may be an integral part of the lead.
+3. Safety Resistor: All wrist strap systems are expected to contain an integral current-limiting safety resistor (1 megohm ± 20%). This resistor may be an integral part of the lead.
 
-d. Ground Termination: The wrist strap ground termination must ensure a positive and durable connection between the lead and the Common Point Ground (CPG). The resistance between CPG and the equipment ground, for testing purposes, shall be <1.0 ohm. [7] For wrist straps ground, protected through a CMS, the value shall be <3.5x107 ohms.[9]
+4. Ground Termination: The wrist strap ground termination must ensure a positive and durable connection between the lead and the Common Point Ground (CPG). The resistance between CPG and the equipment ground, for testing purposes, shall be < 1.0 ohm. [7] For wrist straps ground, protected through a CMS, the value shall be < 3.5x107 ohms.[9]
 
 Foot Grounding: Conductive shoes worn in conjunction with a conductive floor and/or conductive floor mats, are acceptable alternatives to a wrist strap *only* in those situations where the operator needs to be mobile and the use of a wrist strap is impractical or unsafe. When used, foot grounding devices are worn on both feet and are not to be worn outside the ESD protected area. The total resistance of these devices shall be < 3.5x107 ohms.[9] When employing foot grounding devices, it is the responsibility of the ESD Program Monitor to set up a footwear checker and log to monitor the continued performance of the personal grounding device system.
 
-NOTE: Foot grounding devices which are not kept clean will have reduced effectiveness from contaminants inhibiting their conductive interface with the floor.
+> [!Note]
+> Foot grounding devices which are not kept clean will have reduced effectiveness from contaminants inhibiting their conductive interface with the floor.
 
 #### Testing of Personal Grounding Equipment
 
@@ -287,14 +289,14 @@ The integrity of the connection between the operator, the personal grounding equ
 
 Wrist straps are expected to be either continuously monitored (CM) or checked each time the wearer enters the ESD protected area using an approved wrist strap tester.  Foot grounding devices are checked and logged each time the wearer enters the ESD protected area. Foot grounding devices are worn on both feet and are checked one foot at a time.
 
-Workstation Real Time Continuous Monitoring Devices are checked to ensure functionality just before handling ESDS items. (The monitor’s alarm should sound and the appropriate red light should light when the lead is temporarily removed from the cuff. )
+Workstation Real Time Continuous Monitoring Devices are checked to ensure functionality just before handling ESDS items. (The monitor’s alarm should sound and the appropriate red light should light when the lead is temporarily removed from the cuff.)
 
 If one of the checks fails, corrective action is taken before work is performed and a subsequent re-check is used before work resumes. Appropriate corrective actions include:
 
-a. Replace cord.
-b. Replace complete system.
-c. Use a conductive lotion designed for use with ESD wrist straps (if acceptable in the area of use).
-d. Wrist band cleaning.
+1. Replace cord.
+2. Replace complete system.
+3. Use a conductive lotion designed for use with ESD wrist straps (if acceptable in the area of use).
+4. Wrist band cleaning.
 
 If it is found that an ESDS item was handled in an EPA with faulty ESD protection (e.g., wrist straps, grounding, etc.), that item will carry a risk lien. The failure of the ESD protection is recorded by the ESD Program Monitor in the item's traveler.
 
@@ -312,7 +314,8 @@ For less sensitive areas (Class 1A and above), smocks may be used without the ex
 **Chairs, stools, and carts**
 The ESD Program Monitor is responsible for the certification and proper use of stools, chairs and carts in EPAs. Marking certified chairs, stools, and carts with identifying stickers facilitates their proper use and certification maintenance. Local ESD Safety procedures will address ESD work area specific uses of chairs, stools and carts relative to the employed grounding scheme.
 
-Note: Carts do not usually carry a certifying sticker but they should be groundable to carry ESDS equipment. 
+>[!Note] 
+> Carts do not usually carry a certifying sticker but they should be able to be grounded in order to carry ESDS equipment. 
 
 Where carts or other mobile equipment are used, they are required to be grounded while in use in the ESD area. When conductive floors are being utilized, it is recommended that positive electrical contact be made between the floor and conductive structure of the mobile equipment. If the floor is non-conductive, the vehicle will have to be grounded before ESDS items are loaded or removed from the vehicle. The use of protective packaging applies (ESD approved wrap material, totes, etc.) when moving ESDS items for transport away from the ESD area, even if a certified-safe cart is used.
 
@@ -323,27 +326,30 @@ When other tabletop equipment such as microscopes or lead bending equipment is u
  
 The Relative Humidity (RH) target range for ESD work areas is 30% to 70% when monitored near the ESDS item (40% to 70% for Class 0). At levels below 30%, ESD risk increases, requiring the use of additional precautions, such as turning on a humidifier to achieve the required humidity or using an air ionizer. If additional precautionary methods are not available (e.g., the use of an ionizer), it is recommended that work is halted until the required humidity level is obtained.
 
-b. A check of the RH level in each EPA is performed at the start of the workday and the result is logged. Continuous compliance is verified with periodic observations and recording of the results. If the RH level is close to 30% or is seen to be dropping rapidly, extra vigilance is recommended. Data loggers with an integral alarm system are suitable substitutes for the daily check.
+1. A check of the RH level in each EPA is performed at the start of the workday and the result is logged. Continuous compliance is verified with periodic observations and recording of the results. If the RH level is close to 30% or is seen to be dropping rapidly, extra vigilance is recommended. Data loggers with an integral alarm system are suitable substitutes for the daily check.
 
-c. Maximum RH depends on the equipment and unit under test (UUT) to be protected as condensation due to temperature variations can cause corrosion, short circuits or moisture contamination.
+2. Maximum RH depends on the equipment and unit under test (UUT) to be protected as condensation due to temperature variations can cause corrosion, short circuits or moisture contamination.
 
-d. Sealed ESD bags which have been stored in “dry boxes” or may have desiccant gel bags to prevent high humidity problems are easily charged when rubbed against the ESD protective bag. Care should be taken when removing ESDS items from them to prevent ESD events from triboelectric charging.
+3. Sealed ESD bags which have been stored in “dry boxes” or may have desiccant gel bags to prevent high humidity problems are easily charged when rubbed against the ESD protective bag. Care should be taken when removing ESDS items from them to prevent ESD events from triboelectric charging.
 
 **Ionizers**
   
 Air ionization is a technique used to neutralize charges on insulators and ungrounded conductors. Air Ionizers are considered necessary when handling Class 0 sensitive parts or when the relative humidity falls below 30% in the work area. 
 
-b. Air ionizers are designed to work where unrestricted airflow exists between the ionizer and the ESDS item. Their design also requires sufficient distance between the ionizer and the ESDS items to ensure proper ion balance in that airflow. Consult the ionizer manufacturer’s documentation for detailed ionizer operating instructions.
+1. Air ionizers are designed to work where unrestricted airflow exists between the ionizer and the ESDS item. Their design also requires sufficient distance between the ionizer and the ESDS items to ensure proper ion balance in that airflow. Consult the ionizer manufacturer’s documentation for detailed ionizer operating instructions.
 
-c. Careful selection of the ionizer is needed in order to realize the benefits of ionizers in the EPA and may be application dependent. Ionizers require routine maintenance and  testing in accordance with manufacturer’s recommendations to ensure acceptable continued performance.
+2. Careful selection of the ionizer is needed in order to realize the benefits of ionizers in the EPA and may be application dependent. Ionizers require routine maintenance and  testing in accordance with manufacturer’s recommendations to ensure acceptable continued performance.
 
-d. The presence of ionized air creates an increased risk for corona discharge in the presence of “powered-up” high-voltage or RF-sensitive equipment, therefore, the use of ionizers is not recommended in those environments. To avoid fire hazards from corona discharge, keep flammable materials away from air ionizers.
+3. The presence of ionized air creates an increased risk for corona discharge in the presence of “powered-up” high-voltage or RF-sensitive equipment, therefore, the use of ionizers is not recommended in those environments. To avoid fire hazards from corona discharge, keep flammable materials away from air ionizers.
 
-e. Electrostatic survey meters in conjunction with a charging plate may be used to verify the effectiveness of ionizers in extremely sensitive work areas (e.g., Class 0, Class M1) before work is started. It is important that the meter used has sufficient resolution and time response to detect values beyond the minimum performance limits required. To avoid meter saturation or generating false data, the meter should be slowly moved into the area being measured while watching for readings close to the limits of the meter.
+4. Electrostatic survey meters in conjunction with a charging plate may be used to verify the effectiveness of ionizers in extremely sensitive work areas (e.g., Class 0, Class M1) before work is started. It is important that the meter used has sufficient resolution and time response to detect values beyond the minimum performance limits required. To avoid meter saturation or generating false data, the meter should be slowly moved into the area being measured while watching for readings close to the limits of the meter.
 
-f. Though the use of ionizers is recommended for Class 0 EPAs, it is important that the ESD Program Monitor ensure that the ionizer is not the source of unacceptable charge deposition into the ESDS items. In these cases, the ESD Program Monitor will ensure in advance that the ionizer peak balance potential is less than one half the susceptibility of the most sensitive part (≤50% of item sensitivity level).
+5. Though the use of ionizers is recommended for Class 0 EPAs, it is important that the ESD Program Monitor ensure that the ionizer is not the source of unacceptable charge deposition into the ESDS items. In these cases, the ESD Program Monitor will ensure in advance that the ionizer peak balance potential is less than one half the susceptibility of the most sensitive part (≤50% of item sensitivity level).
 
-CAUTION: An improperly adjusted air ionizer can actually charge ESDS devices and lead to possible damage to the device. Only use calibrated air ionization systems.
+>[!Caution] 
+> An improperly adjusted air ionizer can actually charge ESDS devices and lead to possible damage to the device.<br>
+> 
+> **Only use calibrated air ionization systems.**
 
 #### Hand Tools, Equipment, and Fixtures
 The ESD Program Monitor is responsible for approving the use of all tools in the EPA.
@@ -354,15 +360,16 @@ It is recommended that only antistatic solder extractors made of metal, or havin
 
 The following criteria are recommended for electrical tools used in EPAs:
 
-a. They employ a three-wire grounded power cord.
-b. They have static dissipative handle grips.
-c. That the tool’s contact point (e.g., soldering iron tip) which touches the work piece has a resistance of less than 20 ohms (< 1 Ω when new) and the potential difference does not exceed 2 millivolts RMS using methods indicated in the supplier’s process documentation.
+1. They employ a three-wire grounded power cord.
+2. They have static dissipative handle grips.
+3. That the tool’s contact point (e.g., soldering iron tip) which touches the work piece has a resistance of less than 20 ohms (< 1 Ω when new) and the potential difference does not exceed 2 millivolts RMS using methods indicated in the supplier’s process documentation.
 
 Motor driven tools are not recommended for use near ESDS items due to inductive charging in the ESDS devices.
 
-Caution: GFCI systems can indicate a faulty soldering station but do not prevent damage to hardware from damaged soldering tips. Soldering stations are easily moved to the workbench however their records are not usually kept by lab monitors and the tips cannot be easily identified as verified ESD-safe.
+> [!Caution] 
+> GFCI systems can indicate a faulty soldering station but do not prevent damage to hardware from damaged soldering tips. Soldering stations are easily moved to the workbench however their records are not usually kept by lab monitors and the tips cannot be easily identified as verified ESD-safe.
 
-Digital Multimeters (DMMs) may introduce voltage spikes when changing scales and/or have high voltages when measuring resistance. Make sure that the measuring equipment is compatible with the hardware being measured.
+Digital Multi-meters (DMMs) may introduce voltage spikes when changing scales and/or have high voltages when measuring resistance. Make sure that the measuring equipment is compatible with the hardware being measured.
 
 Fixtures used while working at an ESD protected area must be ESD safe and ground bonded to the Common Ground Point.
 
@@ -373,13 +380,13 @@ Electrostatic protective packaging must prevent charge generation (e.g., triboel
 
 Protective bags and packaging are considered ESD protective based on the following application methods:
 
-a. Materials used in protective bags and pouches shall satisfy the resistance requirements to avoid triboelectric charge buildup. 
+1. Materials used in protective bags and pouches shall satisfy the resistance requirements to avoid triboelectric charge buildup. 
 
-b. Acceptable bags and pouches used for electrostatic shielding are constructed from a single folded piece of material. Two-piece construction is not considered ESD-safe. If bags or pouches are not transparent, allowing identification of contents without removal, a label stating contents shall be placed on the outside of the bag or pouch.
+2. Acceptable bags and pouches used for electrostatic shielding are constructed from a single folded piece of material. Two-piece construction is not considered ESD-safe. If bags or pouches are not transparent, allowing identification of contents without removal, a label stating contents shall be placed on the outside of the bag or pouch.
 
-c. Materials in contact with the protected hardware shall have a dissipative surface.
+3. Materials in contact with the protected hardware shall have a dissipative surface.
 
-d. Neither static dissipative impregnated nor topically treated plastics provide electrostatic shielding. Both types need to be enclosed in an outer container which will provide shielding to the contents during shipping. For acceptable electric field shielding, the package must be electrically conductive with a surface resistance of < 104 ohms.
+4. Neither static dissipative impregnated nor topically treated plastics provide electrostatic shielding. Both types need to be enclosed in an outer container which will provide shielding to the contents during shipping. For acceptable electric field shielding, the package must be electrically conductive with a surface resistance of < 104 ohms.
 
 ESD-safe tote boxes shall be made of conductive or static dissipative material. Compliant tote boxes shall be fitted with covers of the same conductivity as the bottom sections that fit tightly enough to ensure conductivity across this interface.
 
@@ -400,8 +407,8 @@ While in the vicinity of ESDS items, personnel handling ESDS items must avoid ph
 Incoming inspection includes examining all ESDS items for proper ESDS precautionary marking and ESD-protective packaging. Inadequate precautionary markings must be corrected and handling history investigated prior to further processing.
 
 When an item is received that has not been protected during shipment or internal transfer, it should be:
-a. Rejected as defective
-b. Processed as non-conforming material
+1. Rejected as defective
+2. Processed as non-conforming material
 
 Additionally, the package should be labeled as failed ESDS material and the incident reported.
 
