@@ -232,7 +232,7 @@ The risk of damaging an item by an ESD event is heightened when the item is left
 
 Non-ESD work should not be done at an ESD station. 
 
-![ESD Figure](/assets/ESCFigure1.jpg)
+![ESD Figure](assets/ESDFigure1.jpg)
 _Figure was taken from the JSC (Johnson Space Center) Technical Standard- [JSC-66552](https://standards.nasa.gov/sites/default/files/standards/JSC/Baseline/0/JSC-66552BASELINE.pdf) from Nasa._
 
 #### ESD Protected Work Surfaces
