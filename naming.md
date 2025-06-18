@@ -28,4 +28,3 @@ b. Electrical assemblies will have the suffix begin with a capital E, e.g., -E##
 6. The entire Part/Assembly/Drawing alphanumeric string for an optical mount in ESC for example
 would be, in 002 configuration:
 AOA-ESC-1210-002 
-details are shown in the drawing tree structure diagram below.
