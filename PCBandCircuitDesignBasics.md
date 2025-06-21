@@ -37,6 +37,9 @@ After bake out exposure to moisture should be minimized.
 \
 Flight PCB should be conformal coated to discourage tin whisker formation, offer some protection against short circuits from FOD, and prevent arc-over from high voltage traces/connections. Parylene is often considered the gold standard for this purpose but is expensive and will likely need to be performed by an external vendor. For prototype purposes, a low outgassing alternative or no conformal coating should be investigated but margins for conformal coating must be maintained.
 
+Unless specified otherwise, the default conformal coating is Arathane 5750 A/B (LV) (TBR, low outgassing but known to cause UV degradation, and quantities with a direct path to the optical assemblies should be minimized, see Hahne, A. (2012). Investigation on GOME-2 throughput degradation Final Report. ESTEC. Retrieved from https://www-cdn.eumetsat.int/files/2020-04/pdf_gome_thru_deg_esa.pdf). 
+
+The coating should be applied by the board house.  "Let the board house do it and my own touch-ups, though. I make a batch of 5750, and make a solution of 50% MEK and 50% toluene by volume, then use hat to thin the 5750 50-50 by weight." (Davaid Hamara, Personal Communication).
 
 #### Soldering considerations
 \
@@ -56,7 +59,7 @@ In LEO the primary concern is external charging due to the ambient plasma, desig
 
 Because of the highly ESD sensitive nature of the MEMS device and the unknown range of potential orbits, we require implement GEO-level internal ESD protections.
 
-#### Internal Electronics
+### Internal Electronics
 \
 Payload electronics should follow `Internal ESD Design Guidelines- Section 3.2.3` of the `Guide to mitigating spacecraft charging` \cite{garrett_guide_2012} (available from http://descanso.jpl.nasa.gov/SciTechBook/series3/ChgingBook--110629-RibbonC.pdf) particularly noting the following:
 
