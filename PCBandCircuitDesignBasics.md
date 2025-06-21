@@ -43,7 +43,6 @@ The coating should be applied by the board house.  "Let the board house do it an
 
 #### Soldering considerations
 \
-
 - Each joint should be inspected via x-ray (``100\% coverage") following IPC J-STD-001E or equivalent aerospace solder standard.  
 - Leaded (Pb/Sn) solder shall be used for reliability in all joints, minimizing whiskers and enabling future rework. 
 
