@@ -1,5 +1,5 @@
 ## PCB and Circuit Design Basics
-The original source of this document is found [here](standards/PCBandCircuitDesignBasics.md).
+The original source of this document is found the steward space telescope programs space coronagraph design guide.
 
 ### Electronics Build
 \
