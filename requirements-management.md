@@ -6,6 +6,7 @@ Portions of this text are adapted from Douglas, Carlton, et al 2016 (https://www
 Derived from the mission objective(s), requirements describe the necessary functions and features of the system. The requirements establish a basic agreement between the stakeholders and the developers. Requirements are useful for all stages of the mission lifecycle\cite{hirshorn_nasa_2017,SMAD}. Requirements are quantitative in nature and should not impose a solution, rather they establish a set of numerical requirements and constraints that correspond to the desired operational and functional capabilities that will meet the mission objective(s). Requirements follow a general hierarchy: mission goal/objective, top level and system-level requirements, and then subsystem requirements. 
 Lower-level requirements are mapped to parent requirements, providing what is known as ``requirements traceability.'' 
 
+![Example requirements flow.](Digraph_gv.png)
 
 There are three main types of requirements.
 1. Functional requirements are a statement of some\emph{thing} you need (a function). They can be such things as ``Payload data shall be communicated to the ground,'' or ``Desired orbit X shall be maintained for Y duration.''
@@ -41,7 +42,6 @@ Managing versions across a large, diverse team becomes problematic when multiple
 A modern decentralized version control system such as \textit{git}\cite{_git_2018,Blischak_quick_2016} or \textit{mercurial}\cite{_mercurial_}, where revisions are tracked  with automatic character-by-character change logs, greatly simplifies merging divergent requirements documents. 
 Dependency visualization, creating a flowchart of interdependencies and links between requirements, allows intuitive and rapid vetting of requirement structure and link relevance.
 Distribution of the requirements in spreadsheet form is inconvenient for presentation and sharing with stakeholders. For verbal presentations, slides are typically more useful, while manuscript form documents are often needed for formal record keeping. 
-
 
 To overcome these challenges, we built an infrastructure around the Doorstop\cite{browning_doorstop_2014} Python requirements management tool. Doorstop is fully featured open source "requirements management tool that facilitates the storage of textual requirements alongside source code in version control".
 Doorstop imports a requirements management spreadsheet from Excel or CSV and parses it into a tree of human-readable YAML files (one per requirement), tracking and validating links between requirements, and publishing hyperlinked requirements documents in HTML or Markdown formats.
