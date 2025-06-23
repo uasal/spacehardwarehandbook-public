@@ -50,13 +50,16 @@ Doorstop imports a requirements management spreadsheet from Excel or CSV and par
 
 ### Customization
 
-**UASAL maintains a custom fork of Doorstop with added features: https://github.com/uasal/doorstop_uasal**.
+**UASAL maintains a custom fork of Doorstop with added features: https://github.com/uasal/doorstop_uasal**. Many of these features are focused on traceability and publication for formal reviews.
 In addition to the core features, we developed a suite of scripts to leverage Doorstop's support for link tracking and version control. 
 The doorstop API allows easy parsing of links to autogenerate dependency visualization using [Graphviz](https://github.com/xflr6/graphviz)\cite{ellson_graphviz_2001,bank_graphviz_2018,_graphviz_}.
 The Graphviz \textit{dot} tool positions nodes to minimize the number of edge (connecting lines) crossings and edge length \cite{ellson_graphviz_2001}, producing
-\textit{dot}  graphs to visualize the requirements flow as illustrated for WFIRST in  Fig. \ref{fig:cgiflowchart}.
+\textit{dot}  graphs to visualize the requirements flow as illustrated for WFIRST in  Fig. \ref{fig:cgiflowchart}. These charts allow rapid identification of erroneously connected or disconnected requirements and illustrate natural groupings and interdependencies.
 
 ![WFIRST CGI requirements flow from objectives to Level 2. Level 2 requirements are outlined by the dashed line.  Version 4.8, \textit{git commit}:1a54825. This flowchart was automatically generated using Graphviz and Doorstop (see Section \ref{sec:approach}).\label{fig:cgiflowchart}](assets/cgiflowchart_spie_asti.png)
+
+
+
 ### Space Heritage
 
 Doorstop is actively developed with over 50 contributors and numerous software industry users and supporters. For space programs, Doorstop is incorporated, along with FRET, into [Space ROS](https://space-ros.github.io/docs/rolling/Related-Projects/Doorstop.html),  an open-source software framework, derived from ROS 2 that will be hardened to be compatible with the demands of safety-critical space robotics applications developed by NASA and Blue Origin. The implementation described here is supported by UA Space Astrophysics Lab and was developed at the MIT STAR lab (Funded by WFIRST Science Investigation team prime award #NNG16PJ24) where it was used on the WFIRST coronagraph (Douglas et al 2016) and the the DeMi mission. At UA, the CDEEP mission concept and multiple other space telescope program (STP) development efforts. 
