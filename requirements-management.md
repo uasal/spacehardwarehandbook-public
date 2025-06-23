@@ -17,6 +17,11 @@ All requirements must be quantifiable and verifiable. Each requirement must incl
 For more details on designing requirements, the reader is encouraged to review Chapter 4 of the \emph{NASA Systems Engineering Handbook}\cite{hirshorn_nasa_2017}. 
 
 
+An example requirements  flow is shown, representing a simple three level flow from mission to science and technical requirements. 
+Higher level requirements start on the left with light gray and lower level requirements are on the far right in darker gray.
+Different line-weights and colors connect to each downstream requirements, helping to trace the upstream parents of a requirement in complex requirements documents.
+
+
 ## Requirements Management Tools
 
 A variety of tools have been employed to keep requirements up-to-date and minimize creep. These including Microsoft Excel, Dynamic Object Oriented Requirements System (DOORS), rmToo, Model-Based System Engineering (MBSE), and others.
@@ -44,11 +49,8 @@ In addition to these features, we developed a suite of scripts to leverage Doors
 The doorstop API allows easy parsing of links to autogenerate dependency visualization using [Graphviz](https://github.com/xflr6/graphviz)\cite{ellson_graphviz_2001,bank_graphviz_2018,_graphviz_}.
 The Graphviz \textit{dot} tool positions nodes to minimize the number of edge (connecting lines) crossings and edge length \cite{ellson_graphviz_2001}, producing
 \textit{dot}  graphs to visualize the requirements flow as illustrated for WFIRST in  Fig. \ref{fig:cgiflowchart}.
-![WFIRST CGI requirements flow from objectives to Level 2. Level 2 requirements are outlined by the dashed line.  Version 4.8, \textit{git commit}:1a54825. This flowchart was automatically generated using Graphviz and Doorstop (see Section \ref{sec:approach}).}\label{fig:cgiflowchart}]()
 
-An example requirements  flow is shown in Fig. \ref{fig:reqs_flow_Graphviz}, representing a simple three level flow from mission to science and technical requirements. 
-Higher level requirements start on the left with light gray and lower level requirements are on the far right in darker gray.
-Different line-weights and colors connect to each downstream requirements, helping to trace the upstream parents of a requirement in complex requirements documents.
+![WFIRST CGI requirements flow from objectives to Level 2. Level 2 requirements are outlined by the dashed line.  Version 4.8, \textit{git commit}:1a54825. This flowchart was automatically generated using Graphviz and Doorstop (see Section \ref{sec:approach}).\label{fig:cgiflowchart}](assets/cgiflowchart_spie_asti.png)
 
 ### Template for space science missions
 A template to reproduce this figure using the tools described here is available via Github (https://github.com/douglase/doorstop_requirements_template) and archived using Zenodo (https://zenodo.org/records/1245989). 
