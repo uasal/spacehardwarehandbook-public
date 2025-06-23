@@ -45,18 +45,24 @@ Distribution of the requirements in spreadsheet form is inconvenient for present
 
 To overcome these challenges, we built an infrastructure around the Doorstop\cite{browning_doorstop_2014} Python requirements management tool. Doorstop is fully featured open source "requirements management tool that facilitates the storage of textual requirements alongside source code in version control".
 Doorstop imports a requirements management spreadsheet from Excel or CSV and parses it into a tree of human-readable YAML files (one per requirement), tracking and validating links between requirements, and publishing hyperlinked requirements documents in HTML or Markdown formats.
-In addition to these features, we developed a suite of scripts to leverage Doorstop's support for link tracking and version control. 
+
+
+
+### Customization
+
+**UASAL maintains a custom fork of Doorstop with added features: https://github.com/uasal/doorstop_uasal**.
+In addition to the core features, we developed a suite of scripts to leverage Doorstop's support for link tracking and version control. 
 The doorstop API allows easy parsing of links to autogenerate dependency visualization using [Graphviz](https://github.com/xflr6/graphviz)\cite{ellson_graphviz_2001,bank_graphviz_2018,_graphviz_}.
 The Graphviz \textit{dot} tool positions nodes to minimize the number of edge (connecting lines) crossings and edge length \cite{ellson_graphviz_2001}, producing
 \textit{dot}  graphs to visualize the requirements flow as illustrated for WFIRST in  Fig. \ref{fig:cgiflowchart}.
 
 ![WFIRST CGI requirements flow from objectives to Level 2. Level 2 requirements are outlined by the dashed line.  Version 4.8, \textit{git commit}:1a54825. This flowchart was automatically generated using Graphviz and Doorstop (see Section \ref{sec:approach}).\label{fig:cgiflowchart}](assets/cgiflowchart_spie_asti.png)
-
-### Template for space science missions
-A template to reproduce this figure using the tools described here is available via Github (https://github.com/douglase/doorstop_requirements_template) and archived using Zenodo (https://zenodo.org/records/1245989). 
-Other features include customized markdown output files using Pandoc\cite{macfarlane_pandoc_2017} which allows of simple hyperlinked publication markdown pages (e.g. for realtime publication on \url{https://www.github.com}) as well as automated generation of presentation slides using LaTeX Beamer format,  annotated with a unique revision number and git commit hash for traceability.
-
 ### Space Heritage
 
 Doorstop is actively developed with over 50 contributors and numerous software industry users and supporters. For space programs, Doorstop is incorporated, along with FRET, into [Space ROS](https://space-ros.github.io/docs/rolling/Related-Projects/Doorstop.html),  an open-source software framework, derived from ROS 2 that will be hardened to be compatible with the demands of safety-critical space robotics applications developed by NASA and Blue Origin. The implementation described here is supported by UA Space Astrophysics Lab and was developed at the MIT STAR lab (Funded by WFIRST Science Investigation team prime award #NNG16PJ24) where it was used on the WFIRST coronagraph (Douglas et al 2016) and the the DeMi mission. At UA, the CDEEP mission concept and multiple other space telescope program (STP) development efforts. 
 
+
+### Template for space science missions
+
+A template to reproduce this figure using the tools described here is available via Github (https://github.com/douglase/doorstop_requirements_template) and archived using Zenodo (https://zenodo.org/records/1245989). 
+Other features include customized markdown output files using Pandoc\cite{macfarlane_pandoc_2017} which allows of simple hyperlinked publication markdown pages (e.g. for realtime publication on \url{https://www.github.com}) as well as automated generation of presentation slides using LaTeX Beamer format,  annotated with a unique revision number and git commit hash for traceability.
