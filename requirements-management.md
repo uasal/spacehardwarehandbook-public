@@ -6,7 +6,7 @@ Portions of this text are adapted from Douglas, Carlton, et al 2016 (https://www
 Derived from the mission objective(s), requirements describe the necessary functions and features of the system. The requirements establish a basic agreement between the stakeholders and the developers. Requirements are useful for all stages of the mission lifecycle\cite{hirshorn_nasa_2017,SMAD}. Requirements are quantitative in nature and should not impose a solution, rather they establish a set of numerical requirements and constraints that correspond to the desired operational and functional capabilities that will meet the mission objective(s). Requirements follow a general hierarchy: mission goal/objective, top level and system-level requirements, and then subsystem requirements. 
 Lower-level requirements are mapped to parent requirements, providing what is known as ``requirements traceability.'' 
 
-![Example requirements flow.](Digraph_gv.png)
+![Example requirements flow.](assets/Digraph_gv.png)
 
 There are three main types of requirements.
 1. Functional requirements are a statement of some\emph{thing} you need (a function). They can be such things as ``Payload data shall be communicated to the ground,'' or ``Desired orbit X shall be maintained for Y duration.''
