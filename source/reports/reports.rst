@@ -1,5 +1,5 @@
 Spacehardware Handbook Reports Directory
-----------------------------------------
+=========================================
 
 .. toctree::
    :maxdepth: 1
