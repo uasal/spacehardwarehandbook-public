@@ -12,5 +12,5 @@ Adhesives
 When more compliance is required, RTV-566 is a standard adhesive for space systems, e.g. [2]_
 
 
-.. [1] `Sundvold, P. D. (1996). Optical Adhesive Property Study (No. KCP–613-5631). Allied-Signal Aerospace Co., Kansas City, MO (United States) <http://www.osti.gov/scitech/biblio/171350/>`__
-.. [2] `Mower, T. M. (2018). Thermomechanical behavior of aerospace-grade RTV (silicone adhesive). International Journal of Adhesion and Adhesives, 87, 64–72. <https://doi.org/10.1016/j.ijadhadh.2018.08.009>`__
+.. [1] Sundvold, P. D. (1996). `Optical Adhesive Property Study (No. KCP–613-5631). <http://www.osti.gov/scitech/biblio/171350/>`__ Allied-Signal Aerospace Co., Kansas City, MO (United States)
+.. [2] Mower, T. M. (2018). `Thermomechanical behavior of aerospace-grade RTV (silicone adhesive). <https://doi.org/10.1016/j.ijadhadh.2018.08.009>`__ International Journal of Adhesion and Adhesives, 87, 64–72.

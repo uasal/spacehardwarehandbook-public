@@ -41,17 +41,19 @@ Verify Calibrations
 ^^^^^^^^^^^^^^^^^^^^^^
 
 1. Verify Torque Wrench Calibration
+
 - [ ] Record Torque Wrench S/N: _____________________
 - [ ] Record Torque Wrench Calibration Date: _____________________
 
 2. Verify Scale Calibration
+
 - [ ] Record Scale S/N: _____________________
 - [ ] Record Scale Calibration Date: _____________________
 
 Mix epoxy
 ^^^^^^^^^^^^^^^^^^^^^^
 
-1. Toque to the level stated in the build procedure. The torque wrench should not be used below 20% of is full scale range. Use a lower range toque wrench. If the torque wrench is a beam type, it should be braced with the other hand so only a torque is applied to the fastener, not the lateral force. The torqueing should be witness by QA. The operator should have passed the fastener torquing course.
+1. Torque to the level stated in the build procedure. The torque wrench should not be used below 20% of its full scale range. Use a lower range toque wrench. If the torque wrench is a beam type, it should be braced with the other hand so only a torque is applied to the fastener, not the lateral force. The torqueing should be witnessed by QA. The operator should have passed the fastener torquing course.
    
    *Note*: there should be no running torque prior to the screw tightening up. There are some self-locking nuts that are used and they will have a running torque. This running torque should be measured and recorded on the build log. Then the torque requested should be in addition to the running torque. For example: if the running torque is 1 in-lb, and 4 in-lb torque is requested, the final torque should be 5 in-lb.
 
@@ -65,6 +67,6 @@ Mix epoxy
 - [ ] Record Mass of Part B: _____________________
 - [ ] Record start time: _____________________
 
-5. Fill a syringe with the epoxy and apply a small bead of epoxy at two places on the head of each fastener. This is the second locking method. If there is a washer under the head of the screw, the epoxy should span the washer and connect the head with the substrate. WA should witness the staking process.
+5. Fill a syringe with the epoxy and apply a small bead of epoxy at two places on the head of each fastener. This is the second locking method. If there is a washer under the head of the screw, the epoxy should span the washer and connect the head with the substrate. QA should witness the staking process.
 
 6. Allow to cure. After the curing period, inspect each of the mix cups to ensure the material has cured properly. ID each cup and store for later inspection if required.
