@@ -19,18 +19,18 @@ documentation for details.
    adhesives
    electrical_connectors
    fasteners
-   FastenerTorquingStakingProcedure
+   fastener_torquing_staking_procedure
    git_startup
    hardware_testing
    imaging
    launch
    materials_and_surfaces
    naming
-   PCBandCircuitDesignBasics
+   pc_band_circuit_design_basics
    radiation
-   requirements-management
+   requirements_management
    space_optics_lab_plan
-   Thermal
+   thermal
    vacuum
    reports/reports
    Appendix/appendix
