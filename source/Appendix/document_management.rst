@@ -13,6 +13,6 @@ Pandoc does not support markdown, but there is a less well supported pptx2md too
 
 Additional references on documentation and git documentation version control practices:
 
-- `Adam, F., Lösch, C., & Müntinaga, H. (2023). An Open and Customizable Software Suite for Systems Engineering and Data Management. In 2023 IEEE Aerospace Conference (pp. 1-16). <https://doi.org/10.1109/AERO55745.2023.10115910>`
-- `Waits, T., & Yankel, J. (2014). Continuous system and user documentation integration. In 2014 IEEE International Professional Communication Conference (IPCC) (pp. 1-5). <https://doi.org/10.1109/IPCC.2014.7020385>`
-- `Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., & Teal, T. K. (2017). Good enough practices in scientific computing. PLOS Computational Biology, 13(6), e1005510. <https://doi.org/10.1371/journal.pcbi.1005510>`
+- Adam, F., Lösch, C., & Müntinaga, H. (2023). `An Open and Customizable Software Suite for Systems Engineering and Data Management. <https://doi.org/10.1109/AERO55745.2023.10115910>`__ In 2023 IEEE Aerospace Conference (pp. 1-16).
+- Waits, T., & Yankel, J. (2014). `Continuous system and user documentation integration. <https://doi.org/10.1109/IPCC.2014.7020385>`__ In 2014 IEEE International Professional Communication Conference (IPCC) (pp. 1-5).
+- Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., & Teal, T. K. (2017). `Good enough practices in scientific computing. <https://doi.org/10.1371/journal.pcbi.1005510>`__ PLOS Computational Biology, 13(6), e1005510.

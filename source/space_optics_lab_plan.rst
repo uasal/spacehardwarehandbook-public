@@ -3,7 +3,7 @@ High-Contrast Lab Contamination Control Plan
 
 Based on the DeMi CubeSat contamination control plan by MIT STAR Lab team members Ewan Douglas and Rachel Morgan (MIT)
 
-NASA source document: `NASA Marshall Contamination Control of Space Optical Systems <attachments/PD-ED-1263.pdf>`__ (also from `<https://extapps.ksc.nasa.gov/Reliability/Documents/Preferred_Practices/1263.pdf>`__)
+NASA source document: :download:`NASA Marshall Contamination Control of Space Optical Systems <_static/attachments/PD-ED-1263.pdf>`__ (also from `<https://extapps.ksc.nasa.gov/Reliability/Documents/Preferred_Practices/1263.pdf>`__)
 
 Examples: `Hanford Contamination Control Update 2 <https://dcc.ligo.org/LIGO-G1400378/public>`__
 

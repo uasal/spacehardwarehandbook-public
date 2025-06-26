@@ -12,7 +12,7 @@ Materials
 Standard for Spacecraft Materials
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-From `NASA-STD-6016B <attachments/nasa_std_6016b_nasa_materials_and_processes_standard.pdf>`__, STANDARD MATERIALS AND PROCESSES REQUIREMENTS FOR SPACECRAFT, Section 4.2.3.6 Thermal Vacuum Stability:
+From `NASA-STD-6016B <_static/attachments/nasa_std_6016b_nasa_materials_and_processes_standard.pdf>`__, STANDARD MATERIALS AND PROCESSES REQUIREMENTS FOR SPACECRAFT, Section 4.2.3.6 Thermal Vacuum Stability:
 
   ...Acceptance criteria as follows:
   
