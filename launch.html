@@ -1,0 +1,149 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Considerations for design for launch survival &mdash; spacehardwarehandbook-public  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Space Materials and Surface Treatment Guide" href="materials_and_surfaces.html" />
+    <link rel="prev" title="Space Imaging Equipment" href="imaging.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            spacehardwarehandbook-public
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="adhesives.html">Adhesives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electrical_connectors.html">Electrical Connectors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fasteners.html">Fastners Analysis Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fastener_torquing_staking_procedure.html">Fastener Torquing and Staking Procedure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git_startup.html">Git Startup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware_testing.html">Hardware Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="imaging.html">Space Imaging Equipment</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Considerations for design for launch survival</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sufficient-design-factors-of-safety">Sufficient design factors of safety</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#useful-resources">Useful Resources:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#simple-rule-of-thumb-for-small-assemblies">Simple rule-of-thumb for small assemblies:</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="materials_and_surfaces.html">Space Materials and Surface Treatment Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="naming.html">Criteria For Naming Assemblies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pc_band_circuit_design_basics.html">PCB and Circuit Design Basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="radiation.html">Radiation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="requirements_management.html">Requirements Definition For Space Science Missions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="space_optics_lab_plan.html">High-Contrast Lab Contamination Control Plan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vacuum.html">Vacuum</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reports/reports.html">Spacehardware Handbook Reports Directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Appendix/appendix.html">Appendix</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">spacehardwarehandbook-public</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Considerations for design for launch survival</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/uasal/spacehardwarehandbook-public/blob/main/source/launch.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="considerations-for-design-for-launch-survival">
+<h1>Considerations for design for launch survival<a class="headerlink" href="#considerations-for-design-for-launch-survival" title="Link to this heading"></a></h1>
+<p>Also review <a class="reference internal" href="fasteners.html"><span class="doc">Fastners Analysis Guide</span></a> and <a class="reference internal" href="hardware_testing.html"><span class="doc">Hardware Testing</span></a>.</p>
+<section id="sufficient-design-factors-of-safety">
+<h2>Sufficient design factors of safety<a class="headerlink" href="#sufficient-design-factors-of-safety" title="Link to this heading"></a></h2>
+<p>Steward Observatory has adopted a baseline factors of safety (FOS) and multiplicative model uncertainty factors (MUF), <a class="reference download internal" download="" href="_downloads/5089107c831f122b6057221a28351adc/SO_FOS_Table-V1_0.pdf"><code class="xref download docutils literal notranslate"><span class="pre">available</span> <span class="pre">here</span></code></a>.</p>
+</section>
+<section id="useful-resources">
+<h2>Useful Resources:<a class="headerlink" href="#useful-resources" title="Link to this heading"></a></h2>
+<p>NASA Lesson learned: <a class="reference download internal" download="" href="_downloads/0509d3cfa29af9bf9ec2fb0e3257fe6e/1211.pdf"><code class="xref download docutils literal notranslate"><span class="pre">NASA</span> <span class="pre">PRACTICE</span> <span class="pre">NO.</span> <span class="pre">PD-ED-1211:</span> <span class="pre">Combination</span> <span class="pre">Methods</span> <span class="pre">for</span> <span class="pre">Deriving</span> <span class="pre">Structural</span> <span class="pre">Design</span> <span class="pre">Loads</span> <span class="pre">Considering</span> <span class="pre">Vibro-Acoustic,</span> <span class="pre">etc.,</span> <span class="pre">Responses</span></code></a></p>
+<p>MSFC standards: <a class="reference download internal" download="" href="_downloads/03abbc23a474ee0040595a87cfcac87d/msfc-std-3676b.pdf"><code class="xref download docutils literal notranslate"><span class="pre">DEVELOPMENT</span> <span class="pre">OF</span> <span class="pre">VIBROACOUSTIC</span> <span class="pre">AND</span> <span class="pre">SHOCK</span> <span class="pre">DESIGN</span> <span class="pre">AND</span> <span class="pre">TEST</span> <span class="pre">CRITERIA</span> <span class="pre">STANDARD</span></code></a></p>
+</section>
+<section id="simple-rule-of-thumb-for-small-assemblies">
+<h2>Simple rule-of-thumb for small assemblies:<a class="headerlink" href="#simple-rule-of-thumb-for-small-assemblies" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>“The RMS vibration amplitudes were applied as a simulated 100g static load applied along each axis simultaneously. This load was chosen to be more conservative than the requirements of the NASA General Environmental Verification Specification (GEVS) which represents a 3-sigma case of applied acceleration due to launch-induced vibrations.”</p>
+<p><a class="reference external" href="https://digitalcommons.usu.edu/smallsat/2020/all2020/121/">do Vale Pereira, P. et al 2020</a></p>
+</div></blockquote>
+<hr class="docutils" />
+<p>To go to the launch vehicle reports directory: <a class="reference internal" href="reports/launch/readme.html"><span class="doc">Launch Vehicle Reports</span></a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="imaging.html" class="btn btn-neutral float-left" title="Space Imaging Equipment" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="materials_and_surfaces.html" class="btn btn-neutral float-right" title="Space Materials and Surface Treatment Guide" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, UASAL.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radiation &mdash; spacehardwarehandbook-public  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Requirements Definition For Space Science Missions" href="requirements_management.html" />
+    <link rel="prev" title="PCB and Circuit Design Basics" href="pc_band_circuit_design_basics.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            spacehardwarehandbook-public
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="adhesives.html">Adhesives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electrical_connectors.html">Electrical Connectors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fasteners.html">Fastners Analysis Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fastener_torquing_staking_procedure.html">Fastener Torquing and Staking Procedure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git_startup.html">Git Startup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware_testing.html">Hardware Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="imaging.html">Space Imaging Equipment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="launch.html">Considerations for design for launch survival</a></li>
+<li class="toctree-l1"><a class="reference internal" href="materials_and_surfaces.html">Space Materials and Surface Treatment Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="naming.html">Criteria For Naming Assemblies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pc_band_circuit_design_basics.html">PCB and Circuit Design Basics</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Radiation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#total-ionizing-dose">Total Ionizing Dose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#single-event-effects">Single Event Effects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#radiation-effects-and-cots-electronics-reading-list">Radiation effects and COTS electronics reading list:</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="requirements_management.html">Requirements Definition For Space Science Missions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="space_optics_lab_plan.html">High-Contrast Lab Contamination Control Plan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vacuum.html">Vacuum</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reports/reports.html">Spacehardware Handbook Reports Directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Appendix/appendix.html">Appendix</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">spacehardwarehandbook-public</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Radiation</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/uasal/spacehardwarehandbook-public/blob/main/source/radiation.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="radiation">
+<h1>Radiation<a class="headerlink" href="#radiation" title="Link to this heading"></a></h1>
+<p>A summary of radiation types that may impact the system:</p>
+<section id="total-ionizing-dose">
+<h2>Total Ionizing Dose<a class="headerlink" href="#total-ionizing-dose" title="Link to this heading"></a></h2>
+<p>Since TID is independent of radiation type, the energy absorbed from gamma rays should be equivalent to the energy absorbed from protons. TID is a long-term ionization effect that primarily impacts carbon-based materials and active piece parts. Damage includes increased leakage current, changes in gain, changes in voltage references, etc. The magnitude of the damage is correlated with dose and TID effects are usually not seen until late in a part’s lifetime with a gradual degradation of functionality becoming apparent before complete failure.</p>
+<p>Shielding allows for partial mitigation of TID; however, there is a point of diminishing return, especially when considering weight and cost. For aluminum, which can be used to block all but gamma radiation, beyond 5mm to 10mm of shielding, there is little effect on dose. Other materials, such as copper, tantalum and lead, can be more effective at shielding, but also produce additional Bremsstrahlung radiation, or electromagnetic radiation emitted when a charged particle is decelerated upon striking against another charged particle—negating the advantage of the materials. This can be countered by using composite shields, but the design effort is higher.</p>
+</section>
+<section id="single-event-effects">
+<h2>Single Event Effects<a class="headerlink" href="#single-event-effects" title="Link to this heading"></a></h2>
+<p>Where TID is a gradual degradation, single event effects (SEEs) are individual events which occur when a single incident ionizing particle deposits enough energy to cause a consequence in a device. Testing for SEE events is generally more expensive and less accessible than TID testing, and therefore is often an accepted risk. SEE can be separated into hard SEE and soft SEE.</p>
+<p>Hard SEE causes permanent physical damage to an electrical component, such as creating a conductive path to short circuit a component (Single Event Latchup) and cause damage, create a high current flow which causes local heating and damage (Single Event Gate Rupture), or create a short circuit and cause physical damage in the form of impact-crater-like features where the semiconductor has vaporized and exploded out (Single Event Burnout). It is usually not the particle itself causing destruction of the device, but the high electrical energy being controlled by the impacted device that causes destruction. The best way to combat hard SEE is to power down electronics during space weather events.</p>
+<p>Soft SEE causes undesired operation without damage to the component the particle passes through. However, undesired operation may cause damage to other components such as if ionizing radiation deposits enough charge to change the state of a memory element or logic circuit (Single Event Upset), or state-machine logic in complex IC changes state as a result of radiation, potentially reaching a normally unreachable state (Single Event Function Interrupt), or in components such as analog or power circuits the component briefly operates erratically before returning to normal operation (Single Event Transient). Soft SEE is only a concern when a device is powered on, unless the device uses bit flips, which can be affected even when a component is powered down.</p>
+</section>
+<section id="radiation-effects-and-cots-electronics-reading-list">
+<h2>Radiation effects and COTS electronics reading list:<a class="headerlink" href="#radiation-effects-and-cots-electronics-reading-list" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Sinclair, D., &amp; Dyer, J. (2013). Radiation Effects and COTS Parts in SmallSats. In Small Satellite Conference (p. 12). Logan, Utah, USA.
+Retrieved from <a class="reference external" href="https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=2934&amp;context=smallsat">https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=2934&amp;context=smallsat</a></p></li>
+<li><p>Nikulainen, M., &amp; Tonicello, F. (n.d.). <a class="reference external" href="https://nepp.nasa.gov/workshops/etw2021/talks/17-JUN-21_Thur/1045_Nikulainen_Tonicello-Utilisation-of-COTS-in-ESA-Missions.pdf">Utilization of COTS in ESA Missions, 20</a> .</p></li>
+<li><p>Becker, H. N., Dolphin, M. D., Thorbourn, D. O., Alexander, J. W., &amp; Salomon, P. M. (2008). Commercial sensory survey radiation testing progress report. Pasadena, CA: Jet Propulsion Laboratory, National Aeronautics and Space Administration.
+Retrieved from <a class="reference external" href="https://trs.jpl.nasa.gov/bitstream/handle/2014/40825/08-22.pdf?sequence=1">https://trs.jpl.nasa.gov/bitstream/handle/2014/40825/08-22.pdf?sequence=1</a></p></li>
+<li><p>Lietner, J. (2022, May 12). Phasing in COTS EEE Parts in NASA [Text].
+Retrieved August 29, 2022, from <a class="reference external" href="http://www.nasa.gov/smallsat-institute/phasing-in-cots-eee-parts-in-nasa">http://www.nasa.gov/smallsat-institute/phasing-in-cots-eee-parts-in-nasa</a>.
+<a class="reference download internal" download="" href="_downloads/540c2e16beb60b0a96110661ca31474b/nasa-cotsphasing-final.pdf"><code class="xref download docutils literal notranslate"><span class="pre">local</span> <span class="pre">PDF</span> <span class="pre">copy</span></code></a></p></li>
+<li><p>Christian Haughwout, et al. (2023). <a class="reference external" href="https://doi.org/10.1117/12.2677714">Compact deformable mirror driver electronics for risk tolerant astrophysics missions.</a> Proceedings Volume 12677, Astronomical Optics: Design, Manufacture, and Test of Space and Ground Systems IV; 1267706</p></li>
+</ul>
+<hr class="docutils" />
+<p>To go to the radiation reports directory:</p>
+<p>::doc::<cite>Radiation Reports &lt;reports/radiation/readme&gt;</cite></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="pc_band_circuit_design_basics.html" class="btn btn-neutral float-left" title="PCB and Circuit Design Basics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="requirements_management.html" class="btn btn-neutral float-right" title="Requirements Definition For Space Science Missions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, UASAL.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,243 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PCB and Circuit Design Basics &mdash; spacehardwarehandbook-public  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Radiation" href="radiation.html" />
+    <link rel="prev" title="Criteria For Naming Assemblies" href="naming.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            spacehardwarehandbook-public
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="adhesives.html">Adhesives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electrical_connectors.html">Electrical Connectors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fasteners.html">Fastners Analysis Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fastener_torquing_staking_procedure.html">Fastener Torquing and Staking Procedure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git_startup.html">Git Startup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware_testing.html">Hardware Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="imaging.html">Space Imaging Equipment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="launch.html">Considerations for design for launch survival</a></li>
+<li class="toctree-l1"><a class="reference internal" href="materials_and_surfaces.html">Space Materials and Surface Treatment Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="naming.html">Criteria For Naming Assemblies</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">PCB and Circuit Design Basics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#electronics-build">Electronics Build</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pcb-manufacturing">PCB Manufacturing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pcb-inspection">PCB Inspection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bake-out">Bake out</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#conformal-coating">Conformal Coating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#soldering-considerations">Soldering considerations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#high-voltage-design-considerations">High Voltage Design Considerations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#spacecraft-charging-considerations">Spacecraft Charging Considerations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#internal-electronics">Internal Electronics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#voltage-stress">Voltage Stress</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#filtering">Filtering</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bleedpaths">Bleedpaths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#insulation">Insulation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="radiation.html">Radiation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="requirements_management.html">Requirements Definition For Space Science Missions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="space_optics_lab_plan.html">High-Contrast Lab Contamination Control Plan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vacuum.html">Vacuum</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reports/reports.html">Spacehardware Handbook Reports Directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Appendix/appendix.html">Appendix</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">spacehardwarehandbook-public</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">PCB and Circuit Design Basics</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/uasal/spacehardwarehandbook-public/blob/main/source/pc_band_circuit_design_basics.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="pcb-and-circuit-design-basics">
+<h1>PCB and Circuit Design Basics<a class="headerlink" href="#pcb-and-circuit-design-basics" title="Link to this heading"></a></h1>
+<p>The original source of this document is the Steward Space Telescope Program’s Space Coronagraph Design Guide.</p>
+<section id="electronics-build">
+<h2>Electronics Build<a class="headerlink" href="#electronics-build" title="Link to this heading"></a></h2>
+<p>Select parts based on <a class="reference external" href="ElectronicComponentSelectionCriteria.md">ElectronicComponentSelectionCriteria.md</a></p>
+<section id="pcb-manufacturing">
+<h3>PCB Manufacturing<a class="headerlink" href="#pcb-manufacturing" title="Link to this heading"></a></h3>
+<p>The cost of catching manufacturing errors early is far lower than having cheap prototypes hold us back.</p>
+<p>Baseline PCB manufacturing is high reliability IPC 6012 Class 3 and soldered to IPC J-STD-001, Space addendum optional. Where practical, ESA and NASA design rules for printed circuit boards shall also be followed.</p>
+</section>
+<section id="pcb-inspection">
+<h3>PCB Inspection<a class="headerlink" href="#pcb-inspection" title="Link to this heading"></a></h3>
+<p>Flight and protoflight boards will be inspected by the manufacturer to IPC 600-A Class 3, and assemblies to IPC-A-610 class 3. All boards will additionally be inspected and photographed by a UA technician or engineer.</p>
+</section>
+<section id="bake-out">
+<h3>Bake out<a class="headerlink" href="#bake-out" title="Link to this heading"></a></h3>
+<p>Before conformal coating the electronics should be baked out to remove moisture and volatiles. Following the CubeSat standard <a class="reference external" href="https://www.nasa.gov/pdf/627972main_LSP-REQ-317_01A.pdf">LSP-REQ-317.01</a>:</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line">Min. Temp 70°C</div>
+<div class="line">(Maximum bake out temperature set to same maximum temperature for thermal cycle test for consistency, assuming bake out would be performed during same vacuum exposure.)</div>
+<div class="line">Cycles = 1</div>
+<div class="line">Dwell Time = Min. 3 hour after thermal stabilization</div>
+<div class="line">Transition = &lt; 5° C/minute</div>
+<div class="line">Vacuum = 1x10-4 Torr</div>
+</div>
+</div></blockquote>
+<p>After bake out exposure to moisture should be minimized.</p>
+</section>
+<section id="conformal-coating">
+<h3>Conformal Coating<a class="headerlink" href="#conformal-coating" title="Link to this heading"></a></h3>
+<p>Flight PCB should be conformal coated to discourage tin whisker formation, offer some protection against short circuits from FOD, and prevent arc-over from high voltage traces/connections. Parylene is often considered the gold standard for this purpose but is expensive and will likely need to be performed by an external vendor. For prototype purposes, a low outgassing alternative or no conformal coating should be investigated but margins for conformal coating must be maintained.</p>
+<p>Unless specified otherwise, the default conformal coating is Arathane 5750 A/B (LV) (TBR, low outgassing but known to cause UV degradation, and quantities with a direct path to the optical assemblies should be minimized, see Hahne, A. (2012). Investigation on GOME-2 throughput degradation Final Report. ESTEC. Retrieved from <a class="reference external" href="https://www-cdn.eumetsat.int/files/2020-04/pdf_gome_thru_deg_esa.pdf">https://www-cdn.eumetsat.int/files/2020-04/pdf_gome_thru_deg_esa.pdf</a>).</p>
+<p>The coating should be applied by the board house.</p>
+<blockquote>
+<div><p>“Let the board house do it and my own touch-ups, though. I make a batch of 5750, and make a solution of 50% MEK and 50% toluene by volume, then use hat to thin the 5750 50-50 by weight.”</p>
+<p>David Hamara, Personal Communication</p>
+</div></blockquote>
+</section>
+<section id="soldering-considerations">
+<h3>Soldering considerations<a class="headerlink" href="#soldering-considerations" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Each joint should be inspected via x-ray (“100% coverage”) following IPC J-STD-001E or equivalent aerospace solder standard.</p></li>
+<li><p>Leaded (Pb/Sn) solder shall be used for reliability in all joints, minimizing whiskers and enabling future rework.</p></li>
+</ul>
+</section>
+<section id="high-voltage-design-considerations">
+<h3>High Voltage Design Considerations<a class="headerlink" href="#high-voltage-design-considerations" title="Link to this heading"></a></h3>
+<p>Design and handling should follow <a class="reference external" href="https://standards.nasa.gov/standard/NASA/NASA-HDBK-4007">NASA Handbook 4007 best practices for 50-250V circuits</a>, section 7.4.2.1-7.4.2.2.</p>
+</section>
+<section id="spacecraft-charging-considerations">
+<h3>Spacecraft Charging Considerations<a class="headerlink" href="#spacecraft-charging-considerations" title="Link to this heading"></a></h3>
+<p>In LEO the primary concern is external charging due to the ambient plasma, design of solar panels and the external structure should be informed by the appropriate NASA Handbook <a class="footnote-reference brackets" href="#id7" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>.</p>
+<p>Because of the highly ESD sensitive nature of the MEMS device and the unknown range of potential orbits, we require implement GEO-level internal ESD protections.</p>
+</section>
+</section>
+<section id="internal-electronics">
+<h2>Internal Electronics<a class="headerlink" href="#internal-electronics" title="Link to this heading"></a></h2>
+<p>Payload electronics should follow “Internal ESD Design Guidelines- Section 3.2.3” of the <a class="reference external" href="http://descanso.jpl.nasa.gov/SciTechBook/series3/ChgingBook-110629-RibbonC.pdf">!!!!!!!!!!”Guide to mitigating spacecraft charging”</a> particularly noting the following:</p>
+<section id="voltage-stress">
+<h3>Voltage Stress<a class="headerlink" href="#voltage-stress" title="Link to this heading"></a></h3>
+<p>The electric field stress in dielectrics should be below <span class="math notranslate nohighlight">\(4 \times 4000\)</span> V/mm in any material or gap <a class="footnote-reference brackets" href="#id8" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a> and gap voltage stresses below 400V/mm <a class="footnote-reference brackets" href="#id7" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>.</p>
+</section>
+<section id="filtering">
+<h3>Filtering<a class="headerlink" href="#filtering" title="Link to this heading"></a></h3>
+<p>A basic filter circuit to protect from internal ESD shorts <a class="footnote-reference brackets" href="#id8" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>:</p>
+<blockquote>
+<div><p>The filter should anticipate a pulse on the order of 20 ns wide. As a rough example, filtering should protect against a 20-pF capacitance charged with 100 nC (about 5 kV stress, 250 <span class="math notranslate nohighlight">\(\mu\)</span> J)</p>
+</div></blockquote>
+<p>This is comparable to human body model static discharges (200nC at 2kV in 150 ns <a class="footnote-reference brackets" href="#id9" id="id5" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a>).</p>
+</section>
+<section id="bleedpaths">
+<h3>Bleedpaths<a class="headerlink" href="#bleedpaths" title="Link to this heading"></a></h3>
+<p>Metal surfaces should have bleedpaths to ground <a class="footnote-reference brackets" href="#id8" id="id6" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>:</p>
+<blockquote>
+<div><p>Circuit boards should be designed so that any metal area greater than 0.3 cm <span class="math notranslate nohighlight">\(^2\)</span> should also have a bleed path with the same ESD grounding limits of 0 to <span class="math notranslate nohighlight">\(10 M \Omega\)</span> resistance to ground. Circuit boards should be designed so that there will be no open (unused) surface areas greater than 0.3 cm<span class="math notranslate nohighlight">\(^2\)</span>. Otherwise, place a metal land that is ESD grounded with 0 to 10 M <span class="math notranslate nohighlight">\(\Omega\)</span> resistance to ground in the unused dielectric area.</p>
+</div></blockquote>
+</section>
+<section id="insulation">
+<h3>Insulation<a class="headerlink" href="#insulation" title="Link to this heading"></a></h3>
+<p>See <a class="reference external" href="https://nepp.nasa.gov/npsl/wire/insulation_guide.html">NEPP insulation guide</a>, default wiring will be PTFE, Tefzel or Polyimide (Kapton).</p>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id7" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id3">2</a>)</span>
+<p><a class="reference external" href="https://standards.nasa.gov/standard/NASA/NASA-HDBK-4007">NASA Handbook 4007 best practices for 50-250V circuits</a></p>
+</aside>
+<aside class="footnote brackets" id="id8" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id2">1</a>,<a role="doc-backlink" href="#id4">2</a>,<a role="doc-backlink" href="#id6">3</a>)</span>
+<p>!!!!!!!!! <a class="reference external" href="http://descanso.jpl.nasa.gov/SciTechBook/series3/ChgingBook-110629-RibbonC.pdf">http://descanso.jpl.nasa.gov/SciTechBook/series3/ChgingBook-110629-RibbonC.pdf</a></p>
+</aside>
+<aside class="footnote brackets" id="id9" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">3</a><span class="fn-bracket">]</span></span>
+<p><cite>!!!!!!!!liang_design_2012</cite></p>
+</aside>
+</aside>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="naming.html" class="btn btn-neutral float-left" title="Criteria For Naming Assemblies" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="radiation.html" class="btn btn-neutral float-right" title="Radiation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, UASAL.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
