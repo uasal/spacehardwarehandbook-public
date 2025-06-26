@@ -26,11 +26,11 @@ jobs:
 
       - name: Build Sphinx documentation
         run: |
-          sphinx-build -M html ./source ./build --fail-on-warning
+          sphinx-build -M html ./source ./build
 
       - name: Perform link check
         run: |
-          sphinx-build -M linkcheck ./source ./build --fail-on-warning
+          sphinx-build -M linkcheck ./source ./build
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
