@@ -1,7 +1,7 @@
 Space Materials and Surface Treatment Guide
 ===========================================
 
-for details on low outgassing materials see :doc:`vacuum`
+For details on low outgassing materials see :doc:`vacuum`
 
 Aluminum
 --------
@@ -26,8 +26,8 @@ Relevant JSC Structural Engineering Division Process Specification:
 
 Further reading:
 
-- `Goueffon, Y., Arurault, L., Mabru, C., Tonon, C., & Guigue, P. (2009). Black anodic coatings for space applications: Study of the process parameters, characteristics and mechanical properties. Journal of Materials Processing Technology, 209(11), 5145-5151. <https://doi.org/10.1016/j.jmatprotec.2009.02.013>`__
-- `Persky, M. J. (1999). Review of black surfaces for space-borne infrared systems. Review of Scientific Instruments, 70(5), 2193-2217. <https://doi.org/10.1063/1.1149739>`__
+- Goueffon, Y., Arurault, L., Mabru, C., Tonon, C., & Guigue, P. (2009). `Black anodic coatings for space applications: Study of the process parameters, characteristics and mechanical properties. <https://doi.org/10.1016/j.jmatprotec.2009.02.013>`__ Journal of Materials Processing Technology, 209(11), 5145-5151.
+- Persky, M. J. (1999). `Review of black surfaces for space-borne infrared systems. <https://doi.org/10.1063/1.1149739>`__ Review of Scientific Instruments, 70(5), 2193-2217.
 
 Conversion coating
 ^^^^^^^^^^^^^^^^^^^^

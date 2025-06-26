@@ -12,7 +12,7 @@ documentation for details.
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
    :glob:
 
@@ -32,4 +32,6 @@ documentation for details.
    space_optics_lab_plan
    Thermal
    vacuum
-   reports/*
+   reports/reports
+   Appendix/appendix
+

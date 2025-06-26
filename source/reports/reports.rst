@@ -1,6 +1,9 @@
 Spacehardware Handbook Reports Directory
 ----------------------------------------
 
-- `Radiation Reports <radiation/readme.md>`__
-- `Launch Vehicle Reports <launch/readme.md>`__
-- `CMOS sensors <CMOS/readme.md>`__
+.. toctree::
+   :maxdepth: 1
+
+   radiation/readme
+   launch/readme
+   CMOS/readme

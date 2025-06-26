@@ -9,9 +9,9 @@ Examples: `Hanford Contamination Control Update 2 <https://dcc.ligo.org/LIGO-G14
 
 References: 
 
-- `Morzinski, Katie M., Andrew P. Norton, Julia W. Evans, Layra Reza, Scott A. Severson, Daren Dillon, Marc Reinig, Donald T. Gavel, Steven Cornelissen, and Bruce A. Macintosh. 2012. “MEMS Practice: From the Lab to the Telescope.” In SPIE MOEMS-MEMS, 825304-825304. <http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1344856>`__.
+- Morzinski, Katie M., Andrew P. Norton, Julia W. Evans, Layra Reza, Scott A. Severson, Daren Dillon, Marc Reinig, Donald T. Gavel, Steven Cornelissen, and Bruce A. Macintosh. 2012. `"MEMS Practice: From the Lab to the Telescope." <http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1344856>`__ In SPIE MOEMS-MEMS, 825304-825304.
 
-- `Gushwa, K. E., & Torrie, C. I. (2014). Coming clean: understanding and mitigating optical contamination and laser induced damage in advanced LIGO. In G. J. Exarhos, V. E. Gruzdev, J. A. Menapace, D. Ristau, & M. Soileau (Eds.) (p. 923702). Presented at the SPIE Laser Damage, Boulder, Colorado, United States. <https://doi.org/10.1117/12.2066909>`__
+- Gushwa, K. E., & Torrie, C. I. (2014). `Coming clean: understanding and mitigating optical contamination and laser induced damage in advanced LIGO. <https://doi.org/10.1117/12.2066909>`__ In G. J. Exarhos, V. E. Gruzdev, J. A. Menapace, D. Ristau, & M. Soileau (Eds.) (p. 923702). Presented at the SPIE Laser Damage, Boulder, Colorado, United States.
 
 Cleanliness
 -----------
