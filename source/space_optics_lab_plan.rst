@@ -22,7 +22,7 @@ MEMS devices and optical components are particularly susceptible to contaminatio
 - Installation and removal operations on an exposed MEMS device will occur under a class 1000 or better flow bench.
 - Do not use alcohol to clean aluminum mirrors `it reacts with the Al <Cleaning%20Optics-%20Choosing%20the%20Best%20Meth...ptical%20components%20%7C%20Photonics%20Handbook.pdf>`__ and they have been cleaned at the factory.
 - Only low-out-gassing (per `<https://outgassing.nasa.gov>`__) lubricants (e.g. Bray-Coat) and adhesives (e.g. 2216 A/B Gray) will be used in the payload.
-- Guided by NASA STD 8739-1 (`WORKMANSHIP STANDARD FOR STAKING AND CONFORMAL COATING OF PRINTED WIRING BOARDS AND ELECTRONIC ASSEMBLIES <https://snebulos.mit.edu/projects/reference/NASA-Generic/NASA-STD-8739-1.pdf>`__), electrical components will be cleaned as appropriate and conformal coated where possible (e.g. wirebonds cannot be coated)
+- Guided by NASA STD 8739-1 (`WORKMANSHIP STANDARD FOR STAKING AND CONFORMAL COATING OF PRINTED WIRING BOARDS AND ELECTRONIC ASSEMBLIES`__), electrical components will be cleaned as appropriate and conformal coated where possible (e.g. wirebonds cannot be coated)
 
 Cleaning plan
 ~~~~~~~~~~~~~
