@@ -36,7 +36,7 @@ Without extensive review and waiver processses the following materials should no
 - Zinc (same as Cadmium)
 - Carbon steel (corrodes in low-earth orbit and/or in salty launch locations)
 
-.. [1] `<https://nepp.nasa.gov/npsl/Prohibited/cadmium_prohibition.html>`__
+.. [1] `<https://nepp.nasa.gov/npsl/Prohibited/cadmium_prohibition.htm>`__
 
 Style selection
 -----------------
@@ -46,7 +46,7 @@ Vented Socket Head Screws increase cost and decrease choices but allow venting o
 Lubricant
 -----------
 
-Lubricants that are vacuum safe and low-outgassing (see `<outgassing.nasa.gov>`__), such as Braycote 601 EF can decrease the risk of galling.
+Lubricants that are vacuum safe and low-outgassing (see `<https://outgassing.nasa.gov/outgassing-data-table>`__, archived at `<https://gist.github.com/douglase/59f60f348acc1364048a78d0299af434>`__), such as Braycote 601 EF can decrease the risk of galling.
 
 Torque
 --------
