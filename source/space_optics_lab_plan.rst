@@ -3,7 +3,7 @@ High-Contrast Lab Contamination Control Plan
 
 Based on the DeMi CubeSat contamination control plan by MIT STAR Lab team members Ewan Douglas and Rachel Morgan (MIT)
 
-NASA source document: :download:`NASA Marshall Contamination Control of Space Optical Systems <_static/attachments/PD-ED-1263.pdf>`__ (also from `<https://extapps.ksc.nasa.gov/Reliability/Documents/Preferred_Practices/1263.pdf>`__)
+NASA source document: :download:`NASA Marshall Contamination Control of Space Optical Systems <_static/attachments/PD-ED-1263.pdf>` (also from `<https://extapps.ksc.nasa.gov/Reliability/Documents/Preferred_Practices/1263.pdf>`__)
 
 Examples: `Hanford Contamination Control Update 2 <https://dcc.ligo.org/LIGO-G1400378/public>`__
 
@@ -32,7 +32,7 @@ Cleaning plan
   1. wipe down
   2. solvent
 
-    - acetone or dilute simple green (1 part to 10 parts distilled water) (darthmouth method)
+    - acetone or dilute simple green (1 part to 10 parts distilled water) (dartmouth method)
     - `Contrex AL <https://www.fishersci.com/shop/products/decon-contrex-al-alkaline-liquid-detergent-2/0435810>`__ (purchased from Fisher Scientific) is preferred as it has much less odor than Simple Green. 1 part to 20 parts distilled water quasi-arbitrarily.
   
   3. distilled water
