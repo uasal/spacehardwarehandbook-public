@@ -18,5 +18,5 @@ Assorted commercial resources (not vetted or endorsed)
 
 - Spaceflight, Inc. Payload Users Guide. 2025 May. Spaceflight Industries, Suite 600 Seattle, WA 98109. Retrieved from `<https://www.spaceflightservices.com/wp-content/uploads/2015/05/SPUG-RevF.pdf>`__
 - "The Matchmaking Platform for Test and Engineering Services in Aerospace" https://triasrnd.com/
-- Nanoracks ID: `Nanoracks-CubeSat-Deployer-NRCSD-IDD.pdf <https://nanoracks.com/wp-content/uploads/Nanoracks-CubeSat-Deployer-NRCSD-IDD.pdf>`
+- Nanoracks ID: `Nanoracks-CubeSat-Deployer-NRCSD-IDD.pdf <https://nanoracks.com/wp-content/uploads/Nanoracks-CubeSat-Deployer-NRCSD-IDD.pdf>`__
 - `Falcon 9 Payload users guide <https://www.spaceflightnow.com/falcon9/001/f9guide.pdf>`__
