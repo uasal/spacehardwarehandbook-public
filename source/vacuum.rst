@@ -51,5 +51,5 @@ Other resources
 Cleaning parts:
 ^^^^^^^^^^^^^^^^^
 
-- :doc:`Detailed Optical Smallsat Cleaning Procedure <space_optics_cleaning>`
+- `Detailed Optical Smallsat Cleaning Procedure <space_optics_lab_plan>`
 - `LIGO procedure <https://dcc.ligo.org/LIGO-E960022/public>`__
