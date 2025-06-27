@@ -34,7 +34,7 @@ Conversion coating
 
 Chromate conversion coating ("Alodining") is recommended on flight hardware to prevent corrosion and short circuits.
 
-- `PRC-5005 Chemical Conversion Coating of Aluminum Alloys <https://www.nasa.gov/wp-conent/uploads/2023/03/prc-5005-current.pdf>`__
+- `PRC-5005 Chemical Conversion Coating of Aluminum Alloys <https://www.nasa.gov/wp-content/uploads/2023/03/prc-5005-current.pdf>`__
 
 Titanium
 ----------

@@ -20,9 +20,9 @@ MEMS devices and optical components are particularly susceptible to contaminatio
 
 - Payload assembly will occur in a class 100,000 or better cleanroom.
 - Installation and removal operations on an exposed MEMS device will occur under a class 1000 or better flow bench.
-- Do not use alcohol to clean aluminum mirrors `it reacts with the Al <Cleaning%20Optics-%20Choosing%20the%20Best%20Meth...ptical%20components%20%7C%20Photonics%20Handbook.pdf>`__ and they have been cleaned at the factory.
+- Do not use alcohol to clean aluminum mirrors `it reacts with the Al <https://www.photonics.com/Articles/Cleaning_Optics_Choosing_the_Best_Method/a32199>`__ and they have been cleaned at the factory.
 - Only low-out-gassing (per `<https://outgassing.nasa.gov>`__) lubricants (e.g. Bray-Coat) and adhesives (e.g. 2216 A/B Gray) will be used in the payload.
-- Guided by NASA STD 8739-1 (`WORKMANSHIP STANDARD FOR STAKING AND CONFORMAL COATING OF PRINTED WIRING BOARDS AND ELECTRONIC ASSEMBLIES <https://snebulos.mit.edu/projects/reference/NASA-Generic/NASA-STD-8739-1.pdf>`__), electrical components will be cleaned as appropriate and conformal coated where possible (e.g. wirebonds cannot be coated)
+- Guided by NASA STD 8739-1 (`WORKMANSHIP STANDARD FOR STAKING AND CONFORMAL COATING OF PRINTED WIRING BOARDS AND ELECTRONIC ASSEMBLIES`__), electrical components will be cleaned as appropriate and conformal coated where possible (e.g. wirebonds cannot be coated)
 
 Cleaning plan
 ~~~~~~~~~~~~~
@@ -32,8 +32,8 @@ Cleaning plan
   1. wipe down
   2. solvent
 
-    - acetone or dilute simple green (1 part to 10 parts distilled water) (`darthmouth method <Dartmouth%20Lynch%20Aurora%20Lab%20Ultrasonic%20Cleaning%20Procedure.pdf>`__)
-    - `Contrex AL <CONTREX%20AL%20Tech%20Sheet.pdf>`__ (purchased from Fisher Scientific) is preferred as it has much less odor than Simple Green. 1 part to 20 parts distilled water quasi-arbitrarily.
+    - acetone or dilute simple green (1 part to 10 parts distilled water) (darthmouth method)
+    - `Contrex AL <https://www.fishersci.com/shop/products/decon-contrex-al-alkaline-liquid-detergent-2/0435810>`__ (purchased from Fisher Scientific) is preferred as it has much less odor than Simple Green. 1 part to 20 parts distilled water quasi-arbitrarily.
   
   3. distilled water
   4. isopropyl alcohol

@@ -55,7 +55,7 @@ Customization
 **UASAL maintains a custom fork of Doorstop with added features: https://github.com/uasal/doorstop_uasal**. Many of these features are
 focused on traceability and publication for formal reviews.
 In addition to the core features, we developed a suite of scripts to leverage Doorstop's support for link tracking and version control. The doorstop API allows easy parsing of links to autogenerate dependency visualization using `Graphviz <https://github.com/xflr6/graphviz>`__ [11]_ [12]_ [13]_.
-The Graphviz *dot* tool positions nodes to minimize the number of edge (connecting lines) crossings and edge length [14]_, producing *dot* graphs to visualize the requirements flow as illustrated for WFIRST in :numref:`cgiflowchart`. These charts allow rapid identification of erroneously connected or disconnected requirements and illustrate natural groupings and interdependencies.
+The Graphviz *dot* tool positions nodes to minimize the number of edge (connecting lines) crossings and edge length [11]_, producing *dot* graphs to visualize the requirements flow as illustrated for WFIRST in :numref:`cgiflowchart`. These charts allow rapid identification of erroneously connected or disconnected requirements and illustrate natural groupings and interdependencies.
 
 .. _cgiflowchart:
 .. figure:: _static/assets/cgiflowchart_spie_asti.png
@@ -66,20 +66,18 @@ The Graphviz *dot* tool positions nodes to minimize the number of edge (connecti
 Template for space science missions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A template to reproduce this figure using the tools described here is available via Github (`<https://github.com/douglase/doorstop_requirements_template>`__) and archived using Zenodo (`<https://zenodo.org/records/1245989>`__). Other features include customized markdown output files using Pandoc [15]_ which allows of simple hyperlinked publication markdown pages (e.g. for realtime publication on `<https://www.github.com>`__) as well as automated generation of presentation slides using LaTeX Beamer format, annotated with a unique revision number and git commit hash for traceability.
+A template to reproduce this figure using the tools described here is available via Github (`<https://github.com/douglase/doorstop_requirements_template>`__) and archived using Zenodo (`<https://zenodo.org/records/1245989>`__). Other features include customized markdown output files using `Pandoc <https://pandoc.org/>`__ which allows of simple hyperlinked publication markdown pages (e.g. for realtime publication on `<https://www.github.com>`__) as well as automated generation of presentation slides using LaTeX Beamer format, annotated with a unique revision number and git commit hash for traceability.
 
-.. [1] hirshorn_nasa_2017
+.. [1] `NASA Systems Engineering Handbook <https://ntrs.nasa.gov/citations/20170001761>`__
 .. [2] SMAD
 .. [3] DOORS
 .. [4] Bayer_2012
 .. [5] Bayer_2013
 .. [6] `<http://rmtoo.florath.net/>`__
 .. [7] _git_2018
-.. [8] Blischak_quick_2016
-.. [9] _mercurial_
-.. [10] browning_doorstop_2014
-.. [11] ellson_graphviz_2001
+.. [8] `A Quick Introduction to Version Control with Git and GitHub <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668>`__
+.. [9] `mercurial <https://www.mercurial-scm.org/>`__
+.. [10] `Doorstop: Text-Based Requirements Management Using Version Control <https://scholarworks.gvsu.edu/oapsf_articles/32/>`__
+.. [11] `Graphviz — Open Source Graph Drawing Tools <https://link.springer.com/chapter/10.1007/3-540-45848-4_57>`__
 .. [12] bank_graphviz_2018
-.. [13] _graphviz_
-.. [14] ellson_graphviz_2001
-.. [15] macfarlane_pandoc_2017
+.. [13] `Graphviz <https://graphviz.org/>`

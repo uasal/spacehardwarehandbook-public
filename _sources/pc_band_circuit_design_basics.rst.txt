@@ -6,7 +6,7 @@ The original source of this document is the Steward Space Telescope Program's Sp
 Electronics Build
 -------------------
 
-Select parts based on `ElectronicComponentSelectionCriteria.md <ElectronicComponentSelectionCriteria.md>`__
+Select parts based on `ElectronicComponentSelectionCriteria.md` (tbd).
 
 PCB Manufacturing
 ^^^^^^^^^^^^^^^^^
@@ -68,7 +68,7 @@ Because of the highly ESD sensitive nature of the MEMS device and the unknown ra
 Internal Electronics
 ----------------------
 
-Payload electronics should follow "Internal ESD Design Guidelines- Section 3.2.3" of the `!!!!!!!!!!"Guide to mitigating spacecraft charging" <http://descanso.jpl.nasa.gov/SciTechBook/series3/ChgingBook-110629-RibbonC.pdf>`__ particularly noting the following:
+Payload electronics should follow "Internal ESD Design Guidelines- Section 3.2.3" of the `"Guide to mitigating spacecraft charging" <https://descanso.jpl.nasa.gov/SciTechBook/series3/ChgingBook-110629-RibbonC.pdf>`__ particularly noting the following:
 
 Voltage Stress
 ^^^^^^^^^^^^^^
@@ -93,9 +93,9 @@ Metal surfaces should have bleedpaths to ground [2]_:
 
 Insulation
 ^^^^^^^^^^
-See `NEPP insulation guide <https://nepp.nasa.gov/npsl/wire/insulation_guide.html>`__, default wiring will be PTFE, Tefzel or Polyimide (Kapton).
+See `NEPP insulation guide <https://nepp.nasa.gov/npsl/wire/insulation_guide.htm>`__, default wiring will be PTFE, Tefzel or Polyimide (Kapton).
 
 
 .. [1] `NASA Handbook 4007 best practices for 50-250V circuits <https://standards.nasa.gov/standard/NASA/NASA-HDBK-4007>`__
-.. [2] !!!!!!!!! `<http://descanso.jpl.nasa.gov/SciTechBook/series3/ChgingBook-110629-RibbonC.pdf>`__
+.. [2] `<https://descanso.jpl.nasa.gov/SciTechBook/series3/ChgingBook-110629-RibbonC.pdf>`__
 .. [3] `!!!!!!!!liang_design_2012`
