@@ -62,14 +62,14 @@ html_context = {
 
 # Parameters for the linking and link checking
 
-linkcheck_allowed_redirects = {
-# All HTTP redirections from the source URI to
-# the canonical URI will be treated as "working".
-    r'https://doi.org/10.1063/1.1149739': r'https://pubs.aip.org/rsi/article/70/5/2193/435819/Review-of-black-surfaces-for-space-borne-infrared',
-}
+# linkcheck_allowed_redirects = {
+# # All HTTP redirections from the source URI to
+# # the canonical URI will be treated as "working".
+# }
 
 # Ignore links that are private repos or require VPN
 linkcheck_ignore = [
+    'https://doi.org/10.1063/1.1149739',
     'https://github.com/uasal/spacecoron_design_docs',
     'https://incose.onlinelibrary.wiley.com/doi/abs/10.1002/*',
     'https://spie.org/publications/book/*',
@@ -77,5 +77,5 @@ linkcheck_ignore = [
     'https://www.worldcat.org/title/machinerys-handbook/oclc/954734887',
 ]
 
-# Sites where the anchoring doesn't work correctly (often a redirect issue)
-linkcheck_anchors_ignore_for_url = []
+# # Sites where the anchoring doesn't work correctly (often a redirect issue)
+# linkcheck_anchors_ignore_for_url = []
