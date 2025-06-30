@@ -47,12 +47,6 @@ jobs:
         run: |
           sphinx-build -M latexpdf ./source ./build --keep-going
 
-      - name: List generated .tex files
-        run: ls -la build/latex/
-
-      - name: Show last 200 lines of the .log
-        run: tail -n200 build/latex/latex/spacehardwarehandbook-public.log || true
-
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         if: always()

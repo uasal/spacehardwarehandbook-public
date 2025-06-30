@@ -66,7 +66,7 @@ The payload is extremely sensitive to the conflicting hazards of electrostatic d
 
 - humidity monitoring of the spacecraft during integration
 - MEMS de operation limited to humidities between 25% RH and 40% RH (25-30% RH preferred)
-- technician payload handling of the powered off payload at :math:`>40%` RH  is preferred for ESD hazard reduction.
+- technician payload handling of the powered off payload at >40% RH  is preferred for ESD hazard reduction.
 - payload and technician grounding at all times
 - daily testing of grounding equipment
 - static dissipative lab coats warn at all times
