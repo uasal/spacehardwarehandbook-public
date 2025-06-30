@@ -73,6 +73,7 @@ linkcheck_ignore = [
     'https://github.com/uasal/spacecoron_design_docs',
     'https://incose.onlinelibrary.wiley.com/doi/abs/10.1002/*',
     'https://spie.org/publications/book/*',
+    'https://www.engineeringtoolbox.com/steel-bolts-sae-grades-d_1426.html',
     'https://www.photonics.com/Articles/Cleaning_Optics_Choosing_the_Best_Method/a32199',
     'https://www.worldcat.org/title/machinerys-handbook/oclc/954734887',
 ]
