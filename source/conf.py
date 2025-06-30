@@ -76,6 +76,7 @@ linkcheck_ignore = [
     'https://www.engineeringtoolbox.com/steel-bolts-sae-grades-d_1426.html',
     'https://www.photonics.com/Articles/Cleaning_Optics_Choosing_the_Best_Method/a32199',
     'https://www.worldcat.org/title/machinerys-handbook/oclc/954734887',
+    'https://ntrs.nasa.gov/citations/20170001761',
 ]
 
 # # Sites where the anchoring doesn't work correctly (often a redirect issue)
