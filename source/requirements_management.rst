@@ -37,8 +37,11 @@ The Dynamic Object Oriented Requirements Management System (DOORS) is an commerc
 
 Model-Based Systems Engineering (MBSE) tools for requirements management integrate models, analyses, budgets, and other system constraints together. MBSE creates a fully traceable system of requirements and interactions and is able to capture dependencies. In using MBSE tools, there can be logistical and technical challenges, such as organizational and cultural change and training. [4]_ [5]_. rmToo is an open-source requirements management tool [6]_ with a command line interface, relying only on input and output files rather than a special tool set environment. rmToo also allows for version control by integrating with git.
 
+
+.. _doorstop:
+
 Doorstop
-~~~~~~~~
+^^^^^^^^^^
 
 Managing versions across a large, diverse team becomes problematic when multiple contributors have concurrently modified requirements. A modern decentralized version control system such as *git* [7]_ [8]_ or *mercurial* [9]_, where revisions are tracked with automatic character-by-character change logs, greatly simplifies merging divergent requirements documents. Dependency visualization, creating a flowchart of interdependencies and links between requirements, allows intuitive and rapid vetting of requirement structure and link relevance. Distribution of the requirements in spreadsheet form is inconvenient for presentation and sharing with stakeholders. For verbal presentations, slides are typically more useful, while manuscript form documents are often needed for formal record keeping.
 
@@ -61,23 +64,23 @@ The Graphviz *dot* tool positions nodes to minimize the number of edge (connecti
 .. figure:: _static/assets/cgiflowchart_spie_asti.png
    :alt: WFIRST CGI requirements flow from objectives to Level 2.
 
-   WFIRST CGI requirements flow from objectives to Level 2. Level 2 requirements are outlined by the dashed line. Version 4.8, ``git commit:1a54825```. This flowchart was automatically generated using Graphviz and Doorstop (see Section :ref:`sec:approach`).
+   WFIRST CGI requirements flow from objectives to Level 2. Level 2 requirements are outlined by the dashed line. Version 4.8, ``git commit:1a54825```. This flowchart was automatically generated using Graphviz and Doorstop (see Section :ref:`doorstop`).
 
 Template for space science missions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A template to reproduce this figure using the tools described here is available via Github (`<https://github.com/douglase/doorstop_requirements_template>`__) and archived using Zenodo (`<https://zenodo.org/records/1245989>`__). Other features include customized markdown output files using `Pandoc <https://pandoc.org/>`__ which allows of simple hyperlinked publication markdown pages (e.g. for realtime publication on `<https://www.github.com>`__) as well as automated generation of presentation slides using LaTeX Beamer format, annotated with a unique revision number and git commit hash for traceability.
+A template to reproduce :numref:`cgiflowchart` using the tools described here is available via Github (`<https://github.com/douglase/doorstop_requirements_template>`__) and archived using Zenodo (`<https://zenodo.org/records/1245989>`__). Other features include customized markdown output files using `Pandoc <https://pandoc.org/>`__ which allows of simple hyperlinked publication markdown pages (e.g. for realtime publication on `<https://www.github.com>`__) as well as automated generation of presentation slides using LaTeX Beamer format, annotated with a unique revision number and git commit hash for traceability.
 
 .. [1] `NASA Systems Engineering Handbook <https://ntrs.nasa.gov/citations/20170001761>`__
-.. [2] SMAD
-.. [3] DOORS
-.. [4] Bayer_2012
-.. [5] Bayer_2013
-.. [6] `<http://rmtoo.florath.net/>`__
-.. [7] _git_2018
+.. [2] `SMAD <https://www.aerostudents.com/courses/aerospace-design-and-systems-engineering-elements-1/SpaceMissionAnalysisAndDesignBook.pdf>`__
+.. [3] `DOORS <https://www.ibm.com/docs/en/engineering-lifecycle-management-suite/doors/9.7.0?topic=overview-doors>`__
+.. [4] `Model Based Systems Engineering on the Europa mission concept study, <https://ieeexplore.ieee.org/document/6187337>`__ T. J. Bayer et al., 2012 IEE Aerospace Conference, 2012
+.. [5] `Update on the Model Based Systems Engineering on the Europa Mission Concept Study, <https://incose.onlinelibrary.wiley.com/doi/abs/10.1002/j.2334-5837.2013.tb03048.x>`__ T. J. Bayer et al., INCOSE International Symposium, 2014
+.. [6] `rmtoo <https://github.com/florath/rmtoo>`__
+.. [7] `git <https://git-scm.com/doc>`__
 .. [8] `A Quick Introduction to Version Control with Git and GitHub <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668>`__
 .. [9] `mercurial <https://www.mercurial-scm.org/>`__
 .. [10] `Doorstop: Text-Based Requirements Management Using Version Control <https://scholarworks.gvsu.edu/oapsf_articles/32/>`__
 .. [11] `Graphviz — Open Source Graph Drawing Tools <https://link.springer.com/chapter/10.1007/3-540-45848-4_57>`__
-.. [12] bank_graphviz_2018
-.. [13] `Graphviz <https://graphviz.org/>`
+.. [12] `graphviz.readthedocs.io <https://graphviz.readthedocs.io/en/stable/>`__
+.. [13] `Graphviz <https://graphviz.org/>`__
