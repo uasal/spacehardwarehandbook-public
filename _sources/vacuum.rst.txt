@@ -16,11 +16,11 @@ From `NASA-STD-6016B <_static/attachments/nasa_std_6016b_nasa_materials_and_proc
 
   ...Acceptance criteria as follows:
   
-  (1) ≤0.1 percent collected volatile condensable materials (CVCM).
+  (1) :math:`\le 0.1` percent collected volatile condensable materials (CVCM).
   
-  (2) ≤1.0 percent total mass loss (TML) less water vapor recovery (WVR), except that a higher mass loss is permitted if this mass loss has no effect on the functionality of the material itself and no effect on the functionality of any materials, components, or systems that could be adversely affected by the subject mass loss. Many materials contain absorbed water, but the loss of absorbed water does not normally affect functionality; so the WVR (a measure of the total water vapor lost in the ASTM E595-15 test) is subtracted from the TML.
+  (2) :math:`\le 1.0` percent total mass loss (TML) less water vapor recovery (WVR), except that a higher mass loss is permitted if this mass loss has no effect on the functionality of the material itself and no effect on the functionality of any materials, components, or systems that could be adversely affected by the subject mass loss. Many materials contain absorbed water, but the loss of absorbed water does not normally affect functionality; so the WVR (a measure of the total water vapor lost in the ASTM E595-15 test) is subtracted from the TML.
   
-  ... [for] surfaces with optical properties. The approach taken depends on the specific program needs but may include lowering the CVCM requirement to ≤0.01 percent CVCM, use of optical surfaces in testing to characterize the effects of deposition, or measurement of outgassing deposition rates as functions of source and target temperature 
+  ... [for] surfaces with optical properties. The approach taken depends on the specific program needs but may include lowering the CVCM requirement to :math:`\le 0.01` percent CVCM, use of optical surfaces in testing to characterize the effects of deposition, or measurement of outgassing deposition rates as functions of source and target temperature 
 
 Test data for materials:
 ^^^^^^^^^^^^^^^^^^^^^^^^^

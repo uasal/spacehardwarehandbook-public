@@ -59,9 +59,11 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Requirements Definition For Space Science Missions</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#background">Background</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#requirements-management-tools">Requirements Management Tools</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#doorstop">Doorstop</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#space-heritage">Space Heritage</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#customization">Customization</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#doorstop">Doorstop</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#space-heritage">Space Heritage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#customization">Customization</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#template-for-space-science-missions">Template for space science missions</a></li>
 </ul>
 </li>
@@ -103,12 +105,12 @@
 <section id="background">
 <h2>Background<a class="headerlink" href="#background" title="Link to this heading"></a></h2>
 <p>Portions of this text are adapted from <a class="reference external" href="https://www.arxiv.org/abs/1807.05422">Douglas, Carlton, et al 2016</a>.</p>
-<p>Derived from the mission objective(s), requirements describe the necessary functions and features of the system. The requirements establish a basic agreement between the stakeholders and the developers. Requirements are useful for all stages of the mission lifecycle <a class="footnote-reference brackets" href="#id16" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#id17" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>. Requirements are quantitative in nature and should not impose a solution, rather they establish a set of numerical requirements and/or constraints that correspond to the desired operational and functional capabilities that will meet the mission objective(s). Requirements follow a general hierarchy: mission goal/objective, top level and system-level requirements, and then subsystem requirements.</p>
+<p>Derived from the mission objective(s), requirements describe the necessary functions and features of the system. The requirements establish a basic agreement between the stakeholders and the developers. Requirements are useful for all stages of the mission lifecycle <a class="footnote-reference brackets" href="#id17" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#id18" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>. Requirements are quantitative in nature and should not impose a solution, rather they establish a set of numerical requirements and/or constraints that correspond to the desired operational and functional capabilities that will meet the mission objective(s). Requirements follow a general hierarchy: mission goal/objective, top level and system-level requirements, and then subsystem requirements.</p>
 <p>Lower-level requirements are mapped to parent requirements, providing what is known as “requirements traceability.”</p>
-<figure class="align-default" id="id29">
+<figure class="align-default" id="id30">
 <img alt="Example requirements flow." src="_images/Digraph_gv.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Example requirements flow.</span><a class="headerlink" href="#id29" title="Link to this image"></a></p>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Example requirements flow.</span><a class="headerlink" href="#id30" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 <p>There are three main types of requirements.</p>
@@ -118,94 +120,94 @@
 <li><p>The third type of requirement are constraints, which set limits on certain resources and define quantities that cannot be traded off with respect to cost, schedule, etc. Additional requirements (which generally fall within the previous three types) are interface, environmental, reliability, and safety requirements.</p></li>
 </ol>
 <p>When writing requirements, one should aim for concise, explicit wording, often using “shall” statements and action verbs. All requirements must be quantifiable and verifiable. Each requirement must include the method by which the requirement will be verified, such as by test, by analysis, by inspection, and/or review of the design. There must be a rationale as to why that specific requirement exists. The rationale should also include any assumptions and document relationships (with links or report numbers) and any relevant design constraints. Requirements should also include revision dates and follow good engineering practices, such as including units. In summary, each requirement typically includes the following information: Requirement ID (for referencing purposes), level, requirement text, rationale, traced from / parent ID, owner/responsible party, verification method, and the date of last modification. Ideally the user will also supply a 1-sentence verification plan summary as it can add aid in communicating scope and expectation regarding the verification effort.
-For more details on designing requirements, the reader is encouraged to review Chapter 4 of the “NASA Systems Engineering Handbook” <a class="footnote-reference brackets" href="#id16" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>.</p>
+For more details on designing requirements, the reader is encouraged to review Chapter 4 of the “NASA Systems Engineering Handbook” <a class="footnote-reference brackets" href="#id17" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>.</p>
 <p>An example requirements flow is shown above, representing a simple three level flow from mission to science and technical requirements. Higher level requirements start on the left with light gray and lower level requirements are on the far right in darker gray. Different line-weights and colors connect to each downstream requirements, helping to trace the upstream parents of a requirement in complex requirements documents.</p>
 </section>
 <section id="requirements-management-tools">
 <h2>Requirements Management Tools<a class="headerlink" href="#requirements-management-tools" title="Link to this heading"></a></h2>
 <p>A variety of tools have been employed to keep requirements up-to-date and minimize creep. These including Microsoft Excel, Dynamic Object Oriented Requirements System (DOORS), rmToo, and many commercial software products that utilize Model-Based System Engineering (MBSE) methodologies. Each approach has strengths and weaknesses and some are briefly described below.</p>
 <p>A spreadsheet (or collection of sheets) can be used as a relational database for requirements, with the benefit that it is easy for users parse and the software, such as Microsoft Excel and OpenOffice, is familiar to many people. However, spreadsheets are challenging due to version control (passing spreadsheets around for editing), the number of sheets needed for larger projects, and, on its own, spreadsheet software does not automatically produce a corresponding formal requirements document.</p>
-<p>The Dynamic Object Oriented Requirements Management System (DOORS) is an commercial object-oriented database, where each requirement is an “object”, rather than a row in a relational table <a class="footnote-reference brackets" href="#id18" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a>. DOORS is widely used in aerospace engineering. However, the system requires purchased licensing and this may limit the number of active participants in the requirements development and editing process.</p>
-<p>Model-Based Systems Engineering (MBSE) tools for requirements management integrate models, analyses, budgets, and other system constraints together. MBSE creates a fully traceable system of requirements and interactions and is able to capture dependencies. In using MBSE tools, there can be logistical and technical challenges, such as organizational and cultural change and training. <a class="footnote-reference brackets" href="#id19" id="id5" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#id20" id="id6" role="doc-noteref"><span class="fn-bracket">[</span>5<span class="fn-bracket">]</span></a>. rmToo is an open-source requirements management tool <a class="footnote-reference brackets" href="#id21" id="id7" role="doc-noteref"><span class="fn-bracket">[</span>6<span class="fn-bracket">]</span></a> with a command line interface, relying only on input and output files rather than a special tool set environment. rmToo also allows for version control by integrating with git.</p>
+<p>The Dynamic Object Oriented Requirements Management System (DOORS) is an commercial object-oriented database, where each requirement is an “object”, rather than a row in a relational table <a class="footnote-reference brackets" href="#id19" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a>. DOORS is widely used in aerospace engineering. However, the system requires purchased licensing and this may limit the number of active participants in the requirements development and editing process.</p>
+<p>Model-Based Systems Engineering (MBSE) tools for requirements management integrate models, analyses, budgets, and other system constraints together. MBSE creates a fully traceable system of requirements and interactions and is able to capture dependencies. In using MBSE tools, there can be logistical and technical challenges, such as organizational and cultural change and training. <a class="footnote-reference brackets" href="#id20" id="id5" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#id21" id="id6" role="doc-noteref"><span class="fn-bracket">[</span>5<span class="fn-bracket">]</span></a>. rmToo is an open-source requirements management tool <a class="footnote-reference brackets" href="#id22" id="id7" role="doc-noteref"><span class="fn-bracket">[</span>6<span class="fn-bracket">]</span></a> with a command line interface, relying only on input and output files rather than a special tool set environment. rmToo also allows for version control by integrating with git.</p>
 <section id="doorstop">
-<h3>Doorstop<a class="headerlink" href="#doorstop" title="Link to this heading"></a></h3>
-<p>Managing versions across a large, diverse team becomes problematic when multiple contributors have concurrently modified requirements. A modern decentralized version control system such as <em>git</em> <a class="footnote-reference brackets" href="#id22" id="id8" role="doc-noteref"><span class="fn-bracket">[</span>7<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#id23" id="id9" role="doc-noteref"><span class="fn-bracket">[</span>8<span class="fn-bracket">]</span></a> or <em>mercurial</em> <a class="footnote-reference brackets" href="#id24" id="id10" role="doc-noteref"><span class="fn-bracket">[</span>9<span class="fn-bracket">]</span></a>, where revisions are tracked with automatic character-by-character change logs, greatly simplifies merging divergent requirements documents. Dependency visualization, creating a flowchart of interdependencies and links between requirements, allows intuitive and rapid vetting of requirement structure and link relevance. Distribution of the requirements in spreadsheet form is inconvenient for presentation and sharing with stakeholders. For verbal presentations, slides are typically more useful, while manuscript form documents are often needed for formal record keeping.</p>
-<p>To overcome these challenges, we built an infrastructure around the Doorstop <a class="footnote-reference brackets" href="#id25" id="id11" role="doc-noteref"><span class="fn-bracket">[</span>10<span class="fn-bracket">]</span></a> Python requirements management tool. Doorstop is fully featured open source “requirements management tool that facilitates the storage of textual requirements alongside source code in version control”. Doorstop imports a requirements management spreadsheet from Excel or CSV and parses it into a tree of human-readable YAML files (one per requirement), tracking and validating links between requirements, and publishing hyperlinked requirements documents in HTML or Markdown formats or exporting as new csv and Excel tables.</p>
-</section>
+<span id="id8"></span><h3>Doorstop<a class="headerlink" href="#doorstop" title="Link to this heading"></a></h3>
+<p>Managing versions across a large, diverse team becomes problematic when multiple contributors have concurrently modified requirements. A modern decentralized version control system such as <em>git</em> <a class="footnote-reference brackets" href="#id23" id="id9" role="doc-noteref"><span class="fn-bracket">[</span>7<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#id24" id="id10" role="doc-noteref"><span class="fn-bracket">[</span>8<span class="fn-bracket">]</span></a> or <em>mercurial</em> <a class="footnote-reference brackets" href="#id25" id="id11" role="doc-noteref"><span class="fn-bracket">[</span>9<span class="fn-bracket">]</span></a>, where revisions are tracked with automatic character-by-character change logs, greatly simplifies merging divergent requirements documents. Dependency visualization, creating a flowchart of interdependencies and links between requirements, allows intuitive and rapid vetting of requirement structure and link relevance. Distribution of the requirements in spreadsheet form is inconvenient for presentation and sharing with stakeholders. For verbal presentations, slides are typically more useful, while manuscript form documents are often needed for formal record keeping.</p>
+<p>To overcome these challenges, we built an infrastructure around the Doorstop <a class="footnote-reference brackets" href="#id26" id="id12" role="doc-noteref"><span class="fn-bracket">[</span>10<span class="fn-bracket">]</span></a> Python requirements management tool. Doorstop is fully featured open source “requirements management tool that facilitates the storage of textual requirements alongside source code in version control”. Doorstop imports a requirements management spreadsheet from Excel or CSV and parses it into a tree of human-readable YAML files (one per requirement), tracking and validating links between requirements, and publishing hyperlinked requirements documents in HTML or Markdown formats or exporting as new csv and Excel tables.</p>
 <section id="space-heritage">
-<h3>Space Heritage<a class="headerlink" href="#space-heritage" title="Link to this heading"></a></h3>
+<h4>Space Heritage<a class="headerlink" href="#space-heritage" title="Link to this heading"></a></h4>
 <p>Doorstop is actively developed with over 50 contributors and numerous software industry users and supporters. For space programs, Doorstop is incorporated, along with FRET, into <a class="reference external" href="https://space-ros.github.io/docs/rolling/Related-Projects/Doorstop.html">Space ROS</a>, an open-source software framework, derived from ROS 2 that will be hardened to be compatible with the demands of safety-critical space robotics applications developed by NASA and Blue Origin. The implementation described here is supported by UA Space Astrophysics Lab and was developed at the MIT STAR lab (Funded by WFIRST Science Investigation team prime award #NNG16PJ24) where it was used on the WFIRST coronagraph (Douglas et al 2016) and the the DeMi mission. At UA, the CDEEP mission concept and multiple other space telescope program (STP) development efforts.</p>
 </section>
 <section id="customization">
-<h3>Customization<a class="headerlink" href="#customization" title="Link to this heading"></a></h3>
+<h4>Customization<a class="headerlink" href="#customization" title="Link to this heading"></a></h4>
 <p><strong>UASAL maintains a custom fork of Doorstop with added features: https://github.com/uasal/doorstop_uasal</strong>. Many of these features are
 focused on traceability and publication for formal reviews.
-In addition to the core features, we developed a suite of scripts to leverage Doorstop’s support for link tracking and version control. The doorstop API allows easy parsing of links to autogenerate dependency visualization using <a class="reference external" href="https://github.com/xflr6/graphviz">Graphviz</a> <a class="footnote-reference brackets" href="#id26" id="id12" role="doc-noteref"><span class="fn-bracket">[</span>11<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#id27" id="id13" role="doc-noteref"><span class="fn-bracket">[</span>12<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#id28" id="id14" role="doc-noteref"><span class="fn-bracket">[</span>13<span class="fn-bracket">]</span></a>.
-The Graphviz <em>dot</em> tool positions nodes to minimize the number of edge (connecting lines) crossings and edge length <a class="footnote-reference brackets" href="#id26" id="id15" role="doc-noteref"><span class="fn-bracket">[</span>11<span class="fn-bracket">]</span></a>, producing <em>dot</em> graphs to visualize the requirements flow as illustrated for WFIRST in <a class="reference internal" href="#cgiflowchart"><span class="std std-numref">Fig. 2</span></a>. These charts allow rapid identification of erroneously connected or disconnected requirements and illustrate natural groupings and interdependencies.</p>
-<figure class="align-default" id="id30">
+In addition to the core features, we developed a suite of scripts to leverage Doorstop’s support for link tracking and version control. The doorstop API allows easy parsing of links to autogenerate dependency visualization using <a class="reference external" href="https://github.com/xflr6/graphviz">Graphviz</a> <a class="footnote-reference brackets" href="#id27" id="id13" role="doc-noteref"><span class="fn-bracket">[</span>11<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#id28" id="id14" role="doc-noteref"><span class="fn-bracket">[</span>12<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#id29" id="id15" role="doc-noteref"><span class="fn-bracket">[</span>13<span class="fn-bracket">]</span></a>.
+The Graphviz <em>dot</em> tool positions nodes to minimize the number of edge (connecting lines) crossings and edge length <a class="footnote-reference brackets" href="#id27" id="id16" role="doc-noteref"><span class="fn-bracket">[</span>11<span class="fn-bracket">]</span></a>, producing <em>dot</em> graphs to visualize the requirements flow as illustrated for WFIRST in <a class="reference internal" href="#cgiflowchart"><span class="std std-numref">Fig. 2</span></a>. These charts allow rapid identification of erroneously connected or disconnected requirements and illustrate natural groupings and interdependencies.</p>
+<figure class="align-default" id="id31">
 <span id="cgiflowchart"></span><img alt="WFIRST CGI requirements flow from objectives to Level 2." src="_images/cgiflowchart_spie_asti.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text">WFIRST CGI requirements flow from objectives to Level 2. Level 2 requirements are outlined by the dashed line. Version 4.8, <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit:1a54825`</span></code>. This flowchart was automatically generated using Graphviz and Doorstop (see Section <span class="xref std std-ref">sec:approach</span>).</span><a class="headerlink" href="#id30" title="Link to this image"></a></p>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">WFIRST CGI requirements flow from objectives to Level 2. Level 2 requirements are outlined by the dashed line. Version 4.8, <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit:1a54825`</span></code>. This flowchart was automatically generated using Graphviz and Doorstop (see Section <a class="reference internal" href="#doorstop"><span class="std std-ref">Doorstop</span></a>).</span><a class="headerlink" href="#id31" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
+</section>
 <section id="template-for-space-science-missions">
 <h3>Template for space science missions<a class="headerlink" href="#template-for-space-science-missions" title="Link to this heading"></a></h3>
-<p>A template to reproduce this figure using the tools described here is available via Github (<a class="reference external" href="https://github.com/douglase/doorstop_requirements_template">https://github.com/douglase/doorstop_requirements_template</a>) and archived using Zenodo (<a class="reference external" href="https://zenodo.org/records/1245989">https://zenodo.org/records/1245989</a>). Other features include customized markdown output files using <a class="reference external" href="https://pandoc.org/">Pandoc</a> which allows of simple hyperlinked publication markdown pages (e.g. for realtime publication on <a class="reference external" href="https://www.github.com">https://www.github.com</a>) as well as automated generation of presentation slides using LaTeX Beamer format, annotated with a unique revision number and git commit hash for traceability.</p>
+<p>A template to reproduce <a class="reference internal" href="#cgiflowchart"><span class="std std-numref">Fig. 2</span></a> using the tools described here is available via Github (<a class="reference external" href="https://github.com/douglase/doorstop_requirements_template">https://github.com/douglase/doorstop_requirements_template</a>) and archived using Zenodo (<a class="reference external" href="https://zenodo.org/records/1245989">https://zenodo.org/records/1245989</a>). Other features include customized markdown output files using <a class="reference external" href="https://pandoc.org/">Pandoc</a> which allows of simple hyperlinked publication markdown pages (e.g. for realtime publication on <a class="reference external" href="https://www.github.com">https://www.github.com</a>) as well as automated generation of presentation slides using LaTeX Beamer format, annotated with a unique revision number and git commit hash for traceability.</p>
 <aside class="footnote-list brackets">
-<aside class="footnote brackets" id="id16" role="doc-footnote">
+<aside class="footnote brackets" id="id17" role="doc-footnote">
 <span class="label"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></span>
 <span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id3">2</a>)</span>
 <p><a class="reference external" href="https://ntrs.nasa.gov/citations/20170001761">NASA Systems Engineering Handbook</a></p>
 </aside>
-<aside class="footnote brackets" id="id17" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
-<p>SMAD</p>
-</aside>
 <aside class="footnote brackets" id="id18" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">3</a><span class="fn-bracket">]</span></span>
-<p>DOORS</p>
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://www.aerostudents.com/courses/aerospace-design-and-systems-engineering-elements-1/SpaceMissionAnalysisAndDesignBook.pdf">SMAD</a></p>
 </aside>
 <aside class="footnote brackets" id="id19" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">4</a><span class="fn-bracket">]</span></span>
-<p>Bayer_2012</p>
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">3</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://www.ibm.com/docs/en/engineering-lifecycle-management-suite/doors/9.7.0?topic=overview-doors">DOORS</a></p>
 </aside>
 <aside class="footnote brackets" id="id20" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">5</a><span class="fn-bracket">]</span></span>
-<p>Bayer_2013</p>
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">4</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://ieeexplore.ieee.org/document/6187337">Model Based Systems Engineering on the Europa mission concept study,</a> T. J. Bayer et al., 2012 IEE Aerospace Conference, 2012</p>
 </aside>
 <aside class="footnote brackets" id="id21" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">6</a><span class="fn-bracket">]</span></span>
-<p><a class="reference external" href="http://rmtoo.florath.net/">http://rmtoo.florath.net/</a></p>
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">5</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://incose.onlinelibrary.wiley.com/doi/abs/10.1002/j.2334-5837.2013.tb03048.x">Update on the Model Based Systems Engineering on the Europa Mission Concept Study,</a> T. J. Bayer et al., INCOSE International Symposium, 2014</p>
 </aside>
 <aside class="footnote brackets" id="id22" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id8">7</a><span class="fn-bracket">]</span></span>
-<p>_git_2018</p>
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">6</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://github.com/florath/rmtoo">rmtoo</a></p>
 </aside>
 <aside class="footnote brackets" id="id23" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id9">8</a><span class="fn-bracket">]</span></span>
-<p><a class="reference external" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668">A Quick Introduction to Version Control with Git and GitHub</a></p>
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id9">7</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://git-scm.com/doc">git</a></p>
 </aside>
 <aside class="footnote brackets" id="id24" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id10">9</a><span class="fn-bracket">]</span></span>
-<p><a class="reference external" href="https://www.mercurial-scm.org/">mercurial</a></p>
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id10">8</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668">A Quick Introduction to Version Control with Git and GitHub</a></p>
 </aside>
 <aside class="footnote brackets" id="id25" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id11">10</a><span class="fn-bracket">]</span></span>
-<p><a class="reference external" href="https://scholarworks.gvsu.edu/oapsf_articles/32/">Doorstop: Text-Based Requirements Management Using Version Control</a></p>
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id11">9</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://www.mercurial-scm.org/">mercurial</a></p>
 </aside>
 <aside class="footnote brackets" id="id26" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span>11<span class="fn-bracket">]</span></span>
-<span class="backrefs">(<a role="doc-backlink" href="#id12">1</a>,<a role="doc-backlink" href="#id15">2</a>)</span>
-<p><a class="reference external" href="https://link.springer.com/chapter/10.1007/3-540-45848-4_57">Graphviz — Open Source Graph Drawing Tools</a></p>
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id12">10</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://scholarworks.gvsu.edu/oapsf_articles/32/">Doorstop: Text-Based Requirements Management Using Version Control</a></p>
 </aside>
 <aside class="footnote brackets" id="id27" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id13">12</a><span class="fn-bracket">]</span></span>
-<p>bank_graphviz_2018</p>
+<span class="label"><span class="fn-bracket">[</span>11<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id13">1</a>,<a role="doc-backlink" href="#id16">2</a>)</span>
+<p><a class="reference external" href="https://link.springer.com/chapter/10.1007/3-540-45848-4_57">Graphviz — Open Source Graph Drawing Tools</a></p>
 </aside>
 <aside class="footnote brackets" id="id28" role="doc-footnote">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id14">13</a><span class="fn-bracket">]</span></span>
-<p><cite>Graphviz &lt;https://graphviz.org/&gt;</cite></p>
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id14">12</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://graphviz.readthedocs.io/en/stable/">graphviz.readthedocs.io</a></p>
+</aside>
+<aside class="footnote brackets" id="id29" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id15">13</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://graphviz.org/">Graphviz</a></p>
 </aside>
 </aside>
 </section>

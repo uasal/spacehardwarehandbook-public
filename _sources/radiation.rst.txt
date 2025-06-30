@@ -34,6 +34,4 @@ Radiation effects and COTS electronics reading list:
 
 --------------
 
-To go to the radiation reports directory:
-
-::doc::`Radiation Reports <reports/radiation/readme>`
+To go to the radiation reports directory: :doc:`Radiation Reports <reports/radiation/readme>`

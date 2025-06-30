@@ -98,4 +98,4 @@ See `NEPP insulation guide <https://nepp.nasa.gov/npsl/wire/insulation_guide.htm
 
 .. [1] `NASA Handbook 4007 best practices for 50-250V circuits <https://standards.nasa.gov/standard/NASA/NASA-HDBK-4007>`__
 .. [2] `<https://descanso.jpl.nasa.gov/SciTechBook/series3/ChgingBook--110629-RibbonC.pdf>`__
-.. [3] `!!!!!!!!liang_design_2012`
+.. [3] `Design considerations for system-level ESD circuit protection, <https://www.ti.com/lit/an/slyt492/slyt492.pdf?ts=1751025356944>`__ R. Liang
