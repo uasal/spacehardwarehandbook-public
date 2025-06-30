@@ -3,7 +3,7 @@ name: Deploy Sphinx Docs to GitHub Pages
 on:
   push:
     branches:
-      - istefan/change-to-sphinx
+      - main
   pull_request:
     types: [opened,reopened,edited,synchronize]
 
@@ -72,7 +72,7 @@ jobs:
     
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/istefan/change-to-sphinx'
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ steps.generate-token.outputs.token }}
           publish_dir: build/html
