@@ -1,6 +1,6 @@
 ﻿# Optic Bonding Procedure
 
-This procedure details the process of bonding an Zerodur or equivalent near-zero-CTE optic into an **Invar** or equivalent near-zero-CTE optic mount for vacuum optical systems. Example photos illustrate the procedure for the ruggedized mirror mount described in  Huie, R., Mears, A., Montoya, M., Vargas, D., West, G., Hofstadter, D., & Douglas, E. S. (2024, September 1). Design and Test of Small Mirror Supports for Harsh Environments. arXiv E-Prints. https://doi.org/10.48550/arXiv.2409.04403
+This procedure details the process of bonding an Zerodur or equivalent near-zero-CTE optic into an **Invar** or equivalent near-zero-CTE optic mount for vacuum optical systems. Example photos illustrate the procedure for the ruggedized mirror mount described in  _Huie, R., Mears, A., Montoya, M., Vargas, D., West, G., Hofstadter, D., & Douglas, E. S. (2024, September 1). Design and Test of Small Mirror Supports for Harsh Environments. arXiv E-Prints. https://doi.org/10.48550/arXiv.2409.04403_.
 
 
 ## Parts List
