@@ -90,6 +90,10 @@ linkcheck_ignore = [
     # Sites that consistently time out from CI
     'https://dcc.ligo.org/*',
     'http://proceedings.spiedigitallibrary.org/*',
+    'https://www.spiedigitallibrary.org/*',
+    # Broken/unreliable redirects
+    'https://trs.jpl.nasa.gov/*',
+    'https://doi.org/10.1117/12.2677714',
 ]
 
 # # Sites where the anchoring doesn't work correctly (often a redirect issue)

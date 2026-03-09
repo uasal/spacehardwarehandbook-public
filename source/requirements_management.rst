@@ -4,7 +4,7 @@ Requirements Definition For Space Science Missions
 Background
 ----------
 
-Portions of this text are adapted from `Douglas, Carlton, et al 2016 <https://www.arxiv.org/abs/1807.05422>`__.
+Portions of this text are adapted from `Douglas, Carlton, et al 2016 <https://arxiv.org/abs/1807.05422>`__.
 
 Derived from the mission objective(s), requirements describe the necessary functions and features of the system. The requirements establish a basic agreement between the stakeholders and the developers. Requirements are useful for all stages of the mission lifecycle [1]_ [2]_. Requirements are quantitative in nature and should not impose a solution, rather they establish a set of numerical requirements and/or constraints that correspond to the desired operational and functional capabilities that will meet the mission objective(s). Requirements follow a general hierarchy: mission goal/objective, top level and system-level requirements, and then subsystem requirements.
 
