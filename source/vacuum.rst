@@ -25,7 +25,7 @@ From `NASA-STD-6016B <_static/attachments/nasa_std_6016b_nasa_materials_and_proc
 Test data for materials:
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- NASA outgassing data: `<http://outgassing.nasa.gov>`__
+- NASA outgassing data: `<https://etd.gsfc.nasa.gov/capabilities/outgassing-database/>`__
   (backup copy of table: `<https://gist.github.com/douglase/59f60f348acc1364048a78d0299af434>`__)
 
 - ESA Materials database (not maintained): `<http://esmat.esa.int/>`__
@@ -37,7 +37,7 @@ Other resources
 
 - `The LIGO Vacuum Compatible Materials List <https://dcc-llo.ligo.org/LIGO-E960050/public>`__
 
-- `Materials in Vacuum FAQ <https://www.lesker.com/newweb/technical_info/questions/materials.cfm>`__; The Kurt J. Lesker Company's TechInfo Department.
+- Materials in Vacuum FAQ; The Kurt J. Lesker Company's TechInfo Department. (Link unavailable — the original URL ``https://www.lesker.com/newweb/technical_info/questions/materials.cfm`` is no longer active.)
 
 - `Thermal Vacuum Topic <https://s3vi.ndc.nasa.gov/ssri-kb/topics/59/>`__; Small Satellite Reliability Initiative (SSRI) Knowledge Base.
 

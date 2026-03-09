@@ -7,7 +7,7 @@ CubeSat Survival extremes:
 ===== ==== ============================================================
 Low   High references
 ===== ==== ============================================================
--17 C +74C `<https://www.nasa.gov/pdf/627972main_LSP-REQ-317_01A.pdf>`__
+-17 C +74C `<https://www.nasa.gov/wp-content/uploads/2018/01/627972main_lsp-req-317_01a.pdf>`__
 ===== ==== ============================================================
 
 Typical hot and cold spacecraft wall temperatures for internal payload:
@@ -15,9 +15,9 @@ Typical hot and cold spacecraft wall temperatures for internal payload:
 +----------------+----------------+-----------------+--------------------------------------------+
 | Case           | Low            | High            | references                                 |
 +================+================+=================+============================================+
-| Warm S/C 6U    | 3 C            | 18 C            | `<https://arxiv.org/pdf/1807.02649.pdf>`__ |
+| Warm S/C 6U    | 3 C            | 18 C            | `<https://arxiv.org/pdf/1807.02649>`__ |
 | CubeSat in LEO |                |                 |                                            |
 +----------------+----------------+-----------------+--------------------------------------------+
-| Cold S/C 6U    | -3 C           | 13 C            | `<https://arxiv.org/pdf/1807.02649.pdf>`__ |
+| Cold S/C 6U    | -3 C           | 13 C            | `<https://arxiv.org/pdf/1807.02649>`__ |
 | CubeSat in LEO |                |                 |                                            |
 +----------------+----------------+-----------------+--------------------------------------------+

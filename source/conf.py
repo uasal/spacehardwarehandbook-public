@@ -62,12 +62,19 @@ html_context = {
 
 # Parameters for the linking and link checking
 
-# linkcheck_allowed_redirects = {
-# # All HTTP redirections from the source URI to
-# # the canonical URI will be treated as "working".
-# }
+linkcheck_timeout = 60
 
-# Ignore links that are private repos or require VPN
+linkcheck_allowed_redirects = {
+    # All HTTP redirections from the source URI to
+    # the canonical URI will be treated as "working".
+    r'https://doi\.org/.*': r'https://.*',
+    r'https://www\.github\.com': r'https://github\.com/.*',
+    r'https://www\.mcmaster\.com/.*': r'https://www\.mcmaster\.com/.*',
+    r'https://www\.springer\.com/.*': r'https://link\.springer\.com/.*',
+}
+
+# Ignore links that are private repos, require VPN, or are known to be
+# flaky (timeouts / connection-refused from CI runners)
 linkcheck_ignore = [
     'https://doi.org/10.1063/1.1149739',
     'https://github.com/uasal/spacecoron_design_docs',
@@ -77,6 +84,16 @@ linkcheck_ignore = [
     'https://www.photonics.com/Articles/Cleaning_Optics_Choosing_the_Best_Method/a32199',
     'https://www.worldcat.org/title/machinerys-handbook/oclc/954734887',
     'https://ntrs.nasa.gov/citations/20170001761',
+    # Broken links (404 / unreachable)
+    'https://www.lesker.com/newweb/technical_info/questions/materials.cfm',
+    'https://extapps.ksc.nasa.gov/*',
+    # Sites that consistently time out from CI
+    'https://dcc.ligo.org/*',
+    'http://proceedings.spiedigitallibrary.org/*',
+    'https://www.spiedigitallibrary.org/*',
+    # Broken/unreliable redirects
+    'https://trs.jpl.nasa.gov/*',
+    'https://doi.org/10.1117/12.2677714',
 ]
 
 # # Sites where the anchoring doesn't work correctly (often a redirect issue)
