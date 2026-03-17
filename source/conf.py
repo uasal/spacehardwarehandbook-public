@@ -94,6 +94,8 @@ linkcheck_ignore = [
     # Broken/unreliable redirects
     'https://trs.jpl.nasa.gov/*',
     'https://doi.org/10.1117/12.2677714',
+    # Zenodo returns 403 from CI runners
+    'https://zenodo.org/records/*',
 ]
 
 # # Sites where the anchoring doesn't work correctly (often a redirect issue)
