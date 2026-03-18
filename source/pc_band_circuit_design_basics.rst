@@ -23,7 +23,7 @@ Flight and protoflight boards will be inspected by the manufacturer to IPC 600-A
 Bake out
 ^^^^^^^^
 
-Before conformal coating the electronics should be baked out to remove moisture and volatiles. Following the CubeSat standard `LSP-REQ-317.01 <https://www.nasa.gov/pdf/627972main_LSP-REQ-317_01A.pdf>`__:
+Before conformal coating the electronics should be baked out to remove moisture and volatiles. Following the CubeSat standard `LSP-REQ-317.01 <https://www.nasa.gov/wp-content/uploads/2018/01/627972main_lsp-req-317_01a.pdf>`__:
 
   | Min. Temp 70°C 
   | (Maximum bake out temperature set to same maximum temperature for thermal cycle test for consistency, assuming bake out would be performed during same vacuum exposure.)
