@@ -14,7 +14,7 @@ Useful References
 - Hemminger, E., Posey, A., & Dube, M. (2014). Torque Tension Testing of Fasteners used for NASA Flight Hardware Applications (p. 13).
   Presented at the Proceedings of the 42nd Aerospace Mechanisms Symposium, NASA Goddard Space Flight Center.
 - `<https://www.mcmaster.com/screws>`__
-- `Machinery's handbook <https://www.worldcat.org/title/machinerys-handbook/oclc/954734887>`__ from `Industrial Press <https://books.industrialpress.com/machineryhandbook>`__
+- `Machinery's handbook <https://www.worldcat.org/title/machinerys-handbook/oclc/954734887>`__ from `Industrial Press <https://books.industrialpress.com/machinery-handbook/>`__
 
 
 Material Selection
@@ -46,7 +46,7 @@ Vented Socket Head Screws increase cost and decrease choices but allow venting o
 Lubricant
 -----------
 
-Lubricants that are vacuum safe and low-outgassing (see `<https://outgassing.nasa.gov/outgassing-data-table>`__, archived at `<https://gist.github.com/douglase/59f60f348acc1364048a78d0299af434>`__), such as Braycote 601 EF can decrease the risk of galling.
+Lubricants that are vacuum safe and low-outgassing (see `<https://etd.gsfc.nasa.gov/capabilities/outgassing-database/>`__, archived at `<https://gist.github.com/douglase/59f60f348acc1364048a78d0299af434>`__), such as Braycote 601 EF can decrease the risk of galling.
 
 Torque
 --------

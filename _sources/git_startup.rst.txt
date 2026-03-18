@@ -79,7 +79,7 @@ Pop into a unix/linux terminal and type ``which git``. If it spits out a path, y
 
 This tutorial will cover the basics of command-line git. You may want to investigate any number of the free git clients out there. The rules are the same though. You'll still need to understand git to use them.
 
-See `GitHub Desktop Client <https://desktop.github.com>`__ or `Git Tower Client <https://www.git-tower.com/>`__.
+See `GitHub Desktop Client <https://github.com/apps/desktop>`__ or `Git Tower Client <https://www.git-tower.com/>`__.
 
 Question 2: Security.
 
