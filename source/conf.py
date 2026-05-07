@@ -97,7 +97,7 @@ linkcheck_ignore = [
     # Zenodo returns 403 from CI runners
     'https://zenodo.org/records/*',
     # Link works but marks as broken for how this is resolving (either certificate or how its resolved)
-    'https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=2934&context=smallsat',
+    'https://digitalcommons.usu.edu/*',
 ]
 
 # # Sites where the anchoring doesn't work correctly (often a redirect issue)
