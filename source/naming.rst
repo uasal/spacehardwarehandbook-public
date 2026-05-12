@@ -3,7 +3,7 @@ Criteria For Naming Assemblies
 
 Consistent naming of mechancial components is key for tracking parts and maintaining a clear folder structure for design files.
 
-For mechanical assemblies we have adopted the approach below. In the example, a subassembly such as the JWST aft-optics assembly (AOA) houses a fictitous Extra-Solar Coronagraph (ESC) instrument.
+For mechanical assemblies we have adopted the approach below. In the example, a Space Telescope Program runs a Versatile CubeSat Telescope (VCT) which contains an aft-optics assembly (AOA) that  houses a fictitous Extra-Solar Coronagraph (ESC) instrument.
 
 1. The Assembly will be represented by an alphanumeric string, e.g., XXX-XXX-XX###, where X is capital letter and # is a number from 0-9.
 
