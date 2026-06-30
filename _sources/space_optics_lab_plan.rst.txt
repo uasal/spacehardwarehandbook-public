@@ -65,7 +65,7 @@ Humidity and Electrostatic Discharge
 The payload is extremely sensitive to the conflicting hazards of electrostatic discharge and high humidity, requiring:
 
 - humidity monitoring of the spacecraft during integration
-- MEMS de operation limited to humidities between 25% RH and 40% RH (25-30% RH preferred)
+- MEMS device operation limited to humidities between 25% RH and 40% RH (25-30% RH strongly preferred)
 - technician payload handling of the powered off payload at >40% RH  is preferred for ESD hazard reduction.
 - payload and technician grounding at all times
 - daily testing of grounding equipment
